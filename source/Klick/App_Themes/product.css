@@ -1,0 +1,45 @@
+﻿html{width:630px;}
+body {    font-family:Arial; width:630px; margin:0px auto; padding:0px auto; background-color:white !important;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.singleproductmain{width:630px; height:400px; overflow-x:hidden;overflow-y:auto; clear:both;}
+.productheader{width:630px; height:30px; text-align:center; line-height:30px;}
+.productheader span{font-size:24px; font-weight:bold; font-family:Arial;}
+.productdetail{width:630px; height:120px;font-size:13px;}
+.productdetail div#imgdiv{width:140px; padding-left:5px;}
+.productdetail div#detaildiv{width:450px;}
+.productdescription {width:450px;}
+.productdescription div#left{width:120px; height:20px;}
+.productdescription div#right{width:330px; line-height:15px;}
+.productrecipient {width:450px; height:25px; }
+.productrecipient div#r-left{width:120px; height:25px; }
+.productrecipient div#r-right{width:330px; height:25px;}
+.productinstruction {width:450px;height:60px; }
+.productinstruction div#i-left{width:120px;height:40px;}
+.productinstruction div#i-right{width:330px;height:40px;}
+.productoptionmaindiv{width:630px;overflow:visible;}
+.productoptionmaindiv span#optionid{width:630px; height:25px; line-height:25px; font-size:18px; padding-left:10px;}
+.optionstable{width:400px; font-size:13px; margin-left:10px; font-family:Arial;}
+.productpricediv{width:670px; height:30px; font-size:13px; border-top:2px solid black;position: fixed; top: 400px; background: white; }
+.productpricediv div#price-left{width:200px; margin-left:10px; font-weight:bold; line-height:25px;height:25px; margin-top:5px;}
+.productpricediv div#price-center{width:200px; font-weight:bold; line-height:25px;height:25px; margin-top:5px;}
+.productpricediv div#price-right{width:200px; font-weight:bold; line-height:25px; height:25px; margin-top:5px;}
+.productadonsmaindiv{width:655px; font-size:12px;}
+.productadonsmaindiv div#HeadingAdons {width:500px; height:25px;font-size:18px; }
+.ProductAdonMain{width:290px; padding-left:10px;}
+.productAdonName{width:120px;}
+.productAdonOptions{width:160px; height:20px;}
+.productAdonOptions .sizeselection{width:15px; height:15px; margin-right:5px;}
+#txtNetPricePanel
+{
+width:60px; float:left;
+}
+
+/*************** For MultiPorduct CSS************************/
+.multiproductmain{width:650px;  display:table;}
+.multiproduct_optionheading{width:630px; height:25px; line-height:25px; font-size:15px; padding-left:0px; font-weight:bold;}
+
+
+.optionDiv {float: left;width: 450px;}
+.optionDiv div.left {float: left;width:120px; height:20px;}
+.optionDiv div.right {float: left;width:330px; line-height:15px;}

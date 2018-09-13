@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizzaness Online Payment</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        table {
+            font-size: 12px;
+            font-family: Verdana;
+        }
+    </style>
+
+</head>
+<body>
+    <table border="0" cellpadding="3" cellspacing="0">
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <img src="{URL}images/logo-img.PNG" title="Pizzaness" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Dear {FULLNAME}:<br /><br />
+                    <p>Your credit card transaction has been completed successfully. Here are details of transaction.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 300px; vertical-align: top;">
+                    Card Number
+                </td>
+                <td style="vert-align: top; text-align: right;">
+                    **** **** **** {CardNumber}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 300px; vertical-align: top;">
+                    Transaction Id
+                </td>
+                <td style="vert-align: top; text-align: right;">
+                    {TransactionId}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 300px; vertical-align: top;">
+                    Correlation Id
+                </td>
+                <td style="vert-align: top; text-align: right;">
+                    {CorrelationId}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

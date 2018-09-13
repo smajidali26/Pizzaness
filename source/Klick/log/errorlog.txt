@@ -1,0 +1,1117 @@
+Date and Time: 7/15/2010 7:57:39 PM
+
+Message: Conversion from string "sdf" to type 'Date' is not valid.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at RAMNLabs.OOS.Portal.admin_occasions_occasions_view.btnAddOccasion_Click(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\menudeals\occasions-view.aspx.vb:line 57
+
+Target Site: System.DateTime ToDate(System.String)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/15/2010 7:51:12 PM
+
+Message: Nullable object must have a value.
+
+Stack Trace:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.op_Explicit(Nullable`1 value)
+   at RAMNLabs.OOS.Portal.admin_menudeals_menudeals_edit.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\menudeals\menudeals-edit.aspx.vb:line 51
+
+Target Site: Void ThrowInvalidOperationException(System.ExceptionResource)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/14/2010 5:47:51 PM
+
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Stack Trace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at RAMNLabs.OOS.Portal.admin_products_product_option_items.gvProducts_RowDeleting(Object sender, GridViewDeleteEventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\products\product-option-items.aspx.vb:line 184
+
+Target Site: System.Object get_Item(Int32)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/14/2010 5:32:51 PM
+
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Stack Trace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at RAMNLabs.OOS.Portal.admin_products_product_option_items.gvProducts_RowDeleting(Object sender, GridViewDeleteEventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\products\product-option-items.aspx.vb:line 184
+
+Target Site: System.Object get_Item(Int32)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/14/2010 5:07:43 PM
+
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_AdonsInProducts_Products1". The conflict occurred in database "D:\PROJECTS\ONLINE ORDERING SYSTEM\CODE\OOS\APP_DATA\OOS.MDF", table "dbo.AdonsInProducts", column 'AdonID'.
+The statement has been terminated.
+
+Stack Trace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SubSonic.SqlDataProvider.ExecuteQuery(QueryCommand qry)
+   at SubSonic.DataService.ExecuteQuery(QueryCommand cmd)
+   at SubSonic.ActiveHelper`1.DestroyByParameter(String columnName, Object oValue)
+   at SubSonic.ActiveHelper`1.Delete(String columnName, Object oValue, String userName)
+   at SubSonic.ActiveRecord`1.DeleteByParameter(String columnName, Object oValue, String userName)
+   at SubSonic.ActiveRecord`1.Delete(Object keyID)
+   at RAMNLabs.OOS.Portal.admin_products_product_view.gvProducts_RowDeleting(Object sender, GridViewDeleteEventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\products\product-view.aspx.vb:line 78
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/14/2010 4:45:04 PM
+
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_AdonsInProducts_Products1". The conflict occurred in database "D:\PROJECTS\ONLINE ORDERING SYSTEM\CODE\OOS\APP_DATA\OOS.MDF", table "dbo.AdonsInProducts", column 'AdonID'.
+The statement has been terminated.
+
+Stack Trace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SubSonic.SqlDataProvider.ExecuteQuery(QueryCommand qry)
+   at SubSonic.DataService.ExecuteQuery(QueryCommand cmd)
+   at SubSonic.ActiveHelper`1.DestroyByParameter(String columnName, Object oValue)
+   at SubSonic.ActiveHelper`1.Delete(String columnName, Object oValue, String userName)
+   at SubSonic.ActiveRecord`1.DeleteByParameter(String columnName, Object oValue, String userName)
+   at SubSonic.ActiveRecord`1.Delete(Object keyID)
+   at RAMNLabs.OOS.Portal.admin_products_product_view.gvProducts_RowDeleting(Object sender, GridViewDeleteEventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\products\product-view.aspx.vb:line 78
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/14/2010 4:41:40 PM
+
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Stack Trace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at RAMNLabs.OOS.Portal.admin_products_product_view.gvProducts_RowDeleting(Object sender, GridViewDeleteEventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\products\product-view.aspx.vb:line 78
+
+Target Site: System.Object get_Item(Int32)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 7:00:01 PM
+
+Message: Name is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control11(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 58
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:54:33 PM
+
+Message: Email is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control14(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 63
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:54:07 PM
+
+Message: Email is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control14(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 63
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:47:21 PM
+
+Message: Email is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control12(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 63
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:47:13 PM
+
+Message: Email is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control13(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 63
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:47:03 PM
+
+Message: Name is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control11(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 58
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:43:48 PM
+
+Message: Name is neither a DataColumn nor a DataRelation for table Table.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control11(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 58
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 148
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object InvokeMethod(Method, System.Object[], Boolean[], System.Reflection.BindingFlags)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:43:28 PM
+
+Message: Invalid object name 'Aspmet_Users'.
+
+Stack Trace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SubSonic.SqlDataProvider.GetDataSet[T](QueryCommand qry)
+   at SubSonic.DataService.GetDataSet[T](QueryCommand cmd)
+   at SubSonic.StoredProcedure.GetDataSet[T]()
+   at SubSonic.StoredProcedure.GetDataSet()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 144
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:39:20 PM
+
+Message: A field or property with the name 'Role' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:38:09 PM
+
+Message: A field or property with the name 'Name' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:37:58 PM
+
+Message: A field or property with the name 'FullName' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:37:42 PM
+
+Message: A field or property with the name 'FirstName' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:37:41 PM
+
+Message: A field or property with the name 'FirstName' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:37:38 PM
+
+Message: A field or property with the name 'FirstName' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:30:17 PM
+
+Message: A field or property with the name 'FirstName' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:30:10 PM
+
+Message: A field or property with the name 'Name' was not found on the selected data source.
+
+Stack Trace:    at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Object GetValue(System.Web.UI.Control)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:26:29 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 136
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:19:26 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 136
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:19:15 PM
+
+Message: Conversion from string "----" to type 'Double' is not valid.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 133
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 28
+
+Target Site: Double ToDouble(System.String, System.Globalization.NumberFormatInfo)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:14:39 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 143
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 35
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:14:37 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 143
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 35
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:12:45 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 35
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/13/2010 6:11:27 PM
+
+Message: No default member found for type 'MembershipUser'.
+
+Stack Trace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at ASP.admin_users_view_users_aspx.__DataBind__control5(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx:line 46
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at RAMNLabs.OOS.Portal.admin_users_view_users.BindData() in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 137
+   at RAMNLabs.OOS.Portal.admin_users_view_users.Page_Load(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\admin\users\view-users.aspx.vb:line 35
+
+Target Site: System.Reflection.MemberInfo[] GetMembers(System.String ByRef, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 7/8/2010 1:45:15 PM
+
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetReader(QueryCommand qry)
+   at SubSonic.DataService.GetReader(QueryCommand cmd)
+   at SubSonic.ReadOnlyRecord`1.FetchAll()
+   at RAMNLabs.OOS.Portal.location_search.GetAllOrderTypes() in D:\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 187
+   at RAMNLabs.OOS.Portal.location_search.lbtnViewAll_Click(Object sender, EventArgs e) in D:\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 138
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:59:05 PM
+
+Message: An error has occurred while establishing a connection to the server.  When connecting to SQL Server 2005, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetReader(QueryCommand qry)
+   at SubSonic.DataService.GetReader(QueryCommand cmd)
+   at SubSonic.ReadOnlyRecord`1.FetchAll()
+   at RAMNLabs.OOS.Portal.location_search.GetAllOrderTypes() in C:\raheel backups\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 187
+   at RAMNLabs.OOS.Portal.location_search.lbtnViewAll_Click(Object sender, EventArgs e) in C:\raheel backups\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 138
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:58:52 PM
+
+Message: An error has occurred while establishing a connection to the server.  When connecting to SQL Server 2005, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetDataSet[T](QueryCommand qry)
+   at SubSonic.DataService.GetDataSet[T](QueryCommand cmd)
+   at SubSonic.StoredProcedure.GetDataSet[T]()
+   at SubSonic.StoredProcedure.GetDataSet()
+   at RAMNLabs.OOS.Portal.Cart.GetAllItemsInCart(String SessionID) in C:\raheel backups\Projects\Online Ordering System\code\OOS\App_Code\BLL\CartInfo.vb:line 76
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at RAMNLabs.OOS.Portal.order_details.BindData() in C:\raheel backups\Projects\Online Ordering System\code\OOS\order\order-details.aspx.vb:line 250
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetDataSet[T](QueryCommand qry)
+   at SubSonic.DataService.GetDataSet[T](QueryCommand cmd)
+   at SubSonic.StoredProcedure.GetDataSet[T]()
+   at SubSonic.StoredProcedure.GetDataSet()
+   at RAMNLabs.OOS.Portal.Cart.GetAllItemsInCart(String SessionID) in C:\raheel backups\Projects\Online Ordering System\code\OOS\App_Code\BLL\CartInfo.vb:line 76
+   at RAMNLabs.OOS.Portal.order_details.BindData() in C:\raheel backups\Projects\Online Ordering System\code\OOS\order\order-details.aspx.vb:line 250
+   at RAMNLabs.OOS.Portal.order_details.Page_Load(Object sender, EventArgs e) in C:\raheel backups\Projects\Online Ordering System\code\OOS\order\order-details.aspx.vb:line 49
+
+Target Site: System.Data.ProviderBase.DbConnectionInternal GetConnection(System.Data.Common.DbConnection)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:58:52 PM
+
+Message: An error has occurred while establishing a connection to the server.  When connecting to SQL Server 2005, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetDataSet[T](QueryCommand qry)
+   at SubSonic.DataService.GetDataSet[T](QueryCommand cmd)
+   at SubSonic.StoredProcedure.GetDataSet[T]()
+   at SubSonic.StoredProcedure.GetDataSet()
+   at RAMNLabs.OOS.Portal.Cart.GetAllItemsInCart(String SessionID) in C:\raheel backups\Projects\Online Ordering System\code\OOS\App_Code\BLL\CartInfo.vb:line 76
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at RAMNLabs.OOS.Portal.order_details.BindData() in C:\raheel backups\Projects\Online Ordering System\code\OOS\order\order-details.aspx.vb:line 250
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+
+Target Site: System.Data.ProviderBase.DbConnectionInternal GetConnection(System.Data.Common.DbConnection)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:35:17 PM
+
+Message: An error has occurred while establishing a connection to the server.  When connecting to SQL Server 2005, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetSingleRecordReader(QueryCommand qry)
+   at SubSonic.DataService.GetSingleRecordReader(QueryCommand cmd)
+   at SubSonic.ReadOnlyRecord`1.FetchByIdInternal(Object keyValue)
+   at SubSonic.ReadOnlyRecord`1.FetchByID(Int32 keyValue)
+   at RAMNLabs.OOS.Portal.menu_details.Page_Load(Object sender, EventArgs e) in C:\raheel backups\Projects\Online Ordering System\code\OOS\menu\menu-details.aspx.vb:line 58
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:34:53 PM
+
+Message: A transport-level error has occurred when sending the request to the server. (provider: Shared Memory Provider, error: 0 - The pipe is being closed.)
+
+Stack Trace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SubSonic.SqlDataProvider.GetSingleRecordReader(QueryCommand qry)
+   at SubSonic.DataService.GetSingleRecordReader(QueryCommand cmd)
+   at SubSonic.ReadOnlyRecord`1.FetchByIdInternal(Object keyValue)
+   at SubSonic.ReadOnlyRecord`1.FetchByID(Int32 keyValue)
+   at RAMNLabs.OOS.Portal.menu_details.Page_Load(Object sender, EventArgs e) in C:\raheel backups\Projects\Online Ordering System\code\OOS\menu\menu-details.aspx.vb:line 58
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+Date and Time: 6/15/2010 12:22:54 PM
+
+Message: An error has occurred while establishing a connection to the server.  When connecting to SQL Server 2005, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Stack Trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SubSonic.SqlDataProvider.CreateConnection(String newConnectionString)
+   at SubSonic.SqlDataProvider.CreateConnection()
+   at SubSonic.AutomaticConnectionScope..ctor(DataProvider provider)
+   at SubSonic.SqlDataProvider.GetReader(QueryCommand qry)
+   at SubSonic.ReadOnlyRecord`1.FetchAll()
+   at RAMNLabs.OOS.Portal.location_search.GetAllOrderTypes() in C:\raheel backups\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 187
+   at RAMNLabs.OOS.Portal.location_search.lbtnViewAll_Click(Object sender, EventArgs e) in C:\raheel backups\Projects\Online Ordering System\code\OOS\search\location-search.aspx.vb:line 138
+
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

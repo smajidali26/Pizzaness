@@ -1,0 +1,28 @@
+﻿<div class="heading">
+    <h4>Order Cart</h4>
+    <span id="cart_total">{ITEMS} item(s) - ${TOTALPRICE}</span>
+</div>
+<div class="content">
+    <table class="cart">
+        <tbody>
+            {DETAIL}
+        </tbody>
+    </table>
+    <table class="total">
+        <tbody>
+            <tr>
+                <td align="right"><b>Sub-Total</b></td>
+                <td align="right">${SUBTOTAL}</td>
+            </tr>
+            <tr>
+                <td align="right"><b>TAX {TAX}%</b></td>
+                <td align="right">${TAXPRICE}</td>
+            </tr>
+            <tr>
+                <td align="right"><b>Total</b></td>
+                <td align="right">${TOTALPRICE}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="checkout"><a class="button" href="/Proceed.aspx"><span>Checkout</span></a></div>
+</div>

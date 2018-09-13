@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://ws.valutec.net/Valutec.asmx?wsdl" docRef="http://ws.valutec.net/Valutec.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://ws.valutec.net/Valutec.asmx" xmlns:q1="https://ws.valutec.net/" binding="q1:ValutecWSSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://ws.valutec.net/Valutec.asmx" xmlns:q2="https://ws.valutec.net/" binding="q2:ValutecWSSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

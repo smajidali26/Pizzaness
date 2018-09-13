@@ -1,0 +1,97 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="templates_admin" %>
+<%@ Register Src="~/controls/MessageBox.ascx" TagName="MessageBox" TagPrefix="uc" %>
+<%@ Register Src="~/controls/MessageBar.ascx" TagName="MessageBar" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Pizzaness Admin Panel</title>
+    <link rel="stylesheet" href="~/StyleSheet/stylesheet.css?v=0.6" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <!-- jQuery and Custom scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="/js/jquery.cycle.lite.1.0.min.js" type="text/javascript"></script>
+    <script src="/js/custom_scripts.js" type="text/javascript"></script>
+    <script src="/js/jquery.roundabout.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/tabs.js"></script>
+
+    <script src="/js/noty/jquery.noty.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/noty/layouts/top.js"></script>
+    <script type="text/javascript" src="/js/noty/layouts/topLeft.js"></script>
+    <script type="text/javascript" src="/js/noty/layouts/topRight.js"></script>
+    <!-- You can add more layouts if you want -->
+    <script type="text/javascript" src="/js/noty/themes/default.js"></script>
+
+    <!-- Tipsy -->
+    <script src="/js/tipsy/jquery.tipsy.js" type="text/javascript"></script>
+    <link href="/js/tipsy/css.tipsy.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.tweet.js" type="text/javascript"></script>
+    <link href="/js/jquery.tweet.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.json-2.4.min.js" type="text/javascript"></script>
+    <script src="/js/highcharts.js" type="text/javascript"></script>
+    <script src="/js/exporting.js" type="text/javascript"></script>
+    <script src="/js/script.js?v=0.6" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+           <uc:MessageBar ID="MessageBar1" runat="server" />
+            <!-- HEADER -->
+            <div id="header" style="display: table;">
+                <div class="inner">
+                    <ul class="main_menu menu_left">
+                        <li class="warning"><a href="<%= ResolveUrl("~/admin/branch/Branches.aspx")%>">Branch Managment</a>
+                            <ul class="secondary">
+                                <li><a href='<%= ResolveUrl("~/admin/branch/AddBranch.aspx")%>'>New Branch</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/branch/BranchProducts.aspx")%>'>Branch Products</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/branch/AddZipCodeInBranchDeliveryArea.aspx")%>'>Add Delivery Area In Branch</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/branch/AddOptionInBranchProduct.aspx")%>'>Add Option in Branch Product</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/branch/AddAdonInBranchProduct.aspx")%>'>Add Adons in Branch Product</a></li>
+                            </ul>
+                        </li>
+                        <li class="warning"><a href="/admin/products/Products.aspx">Products Managment</a>
+                            <ul class="secondary">
+                                <li><a href='<%= ResolveUrl("~/admin/products/OptionTypeList.aspx")%>'>Option Types</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/products/OptionList.aspx")%>'>Options</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/products/ProductAdonTypes.aspx")%>'>Product Adon Types</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/products/ProducAdOns.aspx")%>'>Product Adon</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/products/ProductCategory.aspx")%>'>Product Category</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="logo">
+                        <a href="/Default.aspx">
+                            <img src="/image/logo.png" width="217" alt="Pizzaness" /></a>
+                    </div>
+                    <ul class="main_menu menu_right">
+                        <li><a href="<%= ResolveUrl("~/admin/Default.aspx")%>">Orders</a></li>
+                        <li class="warning"><a href="Javascript:void(0);">Application Settings</a>
+                            <ul class="secondary">
+                                <li><a href='<%= ResolveUrl("~/admin/Settings/Sliders.aspx")%>'>Sliders</a></li>
+                                <li><a href='<%= ResolveUrl("~/admin/Settings/PromotionCodeList.aspx")%>'>Promotion Code</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/Signout.aspx">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- END OF HEADER -->
+            <!-- CONTENT -->
+            <div id="content_holder" class="fixed">
+                 
+                <div class="inner" style="text-align:left;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <!-- END OF CONTENT -->
+        </div>
+
+    </form>
+</body>
+</html>

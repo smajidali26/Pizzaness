@@ -1,0 +1,99 @@
+﻿<Controls:Window x:Class="POS.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:POS"
+        xmlns:Controls="clr-namespace:Elysium.Controls;assembly=Elysium"
+        xmlns:params="http://schemas.codeplex.com/elysium/params" 
+        WindowStartupLocation="CenterScreen" 
+        params:Design.Theme="Light" 
+        params:Manager.Theme="Light"
+      mc:Ignorable="d" WindowState="Maximized" ResizeMode="NoResize" Margin="20" AllowDrop="True" AllowsTransparency="True" 
+        WindowStyle="None" ShowInTaskbar="False">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="PCategories" MethodName="GetProductCategories" ObjectType="{x:Type local:Menu}" IsAsynchronous="True"/>
+    </Window.Resources>
+    <Grid x:Name="MainGrid" Margin="20,20,20,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        
+        <ListBox Name="lbCategories" ItemsSource="{Binding Source={StaticResource PCategories}}" Grid.Row="0"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" SelectionChanged="lbCategories_SelectionChanged" SelectedIndex="-1">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+            <StackPanel>
+                    <Border CornerRadius="10" BorderThickness="1">
+
+                        <Button  HorizontalAlignment="Left" TextOptions.TextFormattingMode="Ideal" VerticalAlignment="Top" Width="100" Height="100" Margin="20,20,20,20" Click="Button_Click"
+                                    FontFamily="Segoe Script" FontSize="14" FontWeight="Bold">
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Name, IsAsync=True}" ></TextBlock>
+                        </Button>
+                    </Border>
+                </StackPanel>
+        </DataTemplate>
+        </ListBox.ItemTemplate>
+        <ListBox.ItemsPanel>
+        <ItemsPanelTemplate>
+            <WrapPanel FlowDirection="LeftToRight" VerticalAlignment="Top" Width="Auto"/>
+        </ItemsPanelTemplate>
+    </ListBox.ItemsPanel>
+    </ListBox>
+        
+        <DataGrid x:Name="OrderDetail" AutoGenerateColumns="False" Height="Auto" Grid.Row="1" CanUserAddRows="False" LoadingRow="OrderDetail_LoadingRow" LoadingRowDetails="OrderDetail_LoadingRowDetails" RowDetailsVisibilityMode="Visible">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="200" IsReadOnly="True" Header="Product Name" Binding="{Binding Path=ProductName}" ></DataGridTextColumn>            
+                <DataGridTextColumn Width="200" IsReadOnly="True" Header="Category Name" Binding="{Binding Path=CategoryName}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="120" IsReadOnly="True" Header="Price" Binding="{Binding Path=Price}" ></DataGridTextColumn>
+                <DataGridTemplateColumn Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content=" Delete " Click="DeleteButton_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid x:Name="DetailGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <ListView x:Name="Options" Grid.Column="0">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Width="200" Header="Option" DisplayMemberBinding="{Binding ProductOptionName}" />
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                        <ListView x:Name="Toppings" Grid.Column="1" Margin="10,0,0,0">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Width="200" Header="Topping" DisplayMemberBinding="{Binding AdonName}" />
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+
+        <Label x:Name="OrderTotal" Content="" FontSize="14" FontFamily="Global Monospace" Grid.Row="2" HorizontalAlignment="Right"/>
+        
+        <Button x:Name="OrderNow" Content=" Order Now " Click="OrderNow_Click" Width="100" Height="50" Grid.Row="3" Margin="20,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Visibility="Hidden">
+                    
+        </Button>
+                    
+                
+           
+    </Grid>
+</Controls:Window>

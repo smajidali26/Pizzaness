@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E65F6766-5858-4ACF-9C78-ABADDD5F43AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessObjects</RootNamespace>
+    <AssemblyName>BusinessObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressType.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Adon.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdonType.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdOnTypeInProduct.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdonType_GetAdonTypeById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdonType_GetAdonType_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdonType_GetAllAdonType_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Adon_GetAdonById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Adon_GetAdonsByAdonTypeId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Adon_GetAdon_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Branch.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BranchDeliveryArea.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BranchProduct_GetProductInBranchById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Branch_GetAllBranch_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Branch_GetBranchById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactAddress.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactInfo.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Klick.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Klick.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Klick.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Klick.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Klick.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OptionType.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OptionTypesInProduct.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetail.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailAdOn.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailOption.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailSubProduct.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailSubProductAdon.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetailSubProductOption.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetail_GetOrderDetail_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderStatu.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_GetOrderByContactInfoId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_GetOrderById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_GetOrderByUser_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_GetOrder_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderType.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order_GetOrder_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductActivation.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductAdon.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategories_GetAllProductCategories_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategories_GetProductCategories_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategory.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductChildAdon.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductChildProductOption.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOption.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOptionsInProduct.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsChildRelationship.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsInBranch.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetAdonByProductId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetAdonForDeal_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetDealAdonByProductId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetDealOptionsByProductId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetDealProductsByProductIdForOrder_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetDealProductsByProductId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetHomePageProducts_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetOptionsForDeal_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetOptionTypeByProductId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetProductByCategoryId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetProductById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetProductDetails_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetProductsForDeal_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_GetProductsNotInBranch_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromotionCode.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromotionCode_GetPromotionCodeByCode_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromotionCode_GetPromotionCodeById_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromotionCode_GetPromotionCode_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SliderImage.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SliderImage_GetHomePageSliders_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SliderImage_GetSliders_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserLoginType.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users_GetUsersBillingAddressByUserId_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users_ValidateUser_Result.cs">
+      <DependentUpon>Klick.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Klick.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Klick.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="Klick.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Klick.edmx</DependentUpon>
+      <LastGenOutput>Klick.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Klick.edmx.diagram">
+      <DependentUpon>Klick.edmx</DependentUpon>
+    </None>
+    <None Include="Klick.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Klick.edmx</DependentUpon>
+      <LastGenOutput>Klick.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

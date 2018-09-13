@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="416a4347546841e9b579cf3ec40f56c7" Name="Diagram1">
+        <EntityTypeShape EntityType="KlickModel.AddressType" Width="1.5" PointX="5.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.Adon" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.AdonType" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.AdOnTypeInProduct" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.BranchDeliveryArea" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.Branch" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ContactAddress" Width="1.5" PointX="8" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ContactInfo" Width="1.5" PointX="5.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OptionType" Width="1.5" PointX="6" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OptionTypesInProduct" Width="1.5" PointX="8.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetailAdOn" Width="1.5" PointX="15.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetailOption" Width="1.5" PointX="15.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetail" Width="1.5" PointX="13.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.Order" Width="1.5" PointX="11" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OrderStatu" Width="1.5" PointX="3.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.OrderType" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductAdon" Width="1.5" PointX="10.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductCategory" Width="1.5" PointX="1.5" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductOption" Width="1.5" PointX="11.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductOptionsInProduct" Width="1.5" PointX="13.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.Product" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductsChildRelationship" Width="1.5" PointX="10.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.ProductsInBranch" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.UserLogin" Width="1.5" PointX="8" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KlickModel.UserLoginType" Width="1.5" PointX="5.75" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="KlickModel.FK_ContactAddresses_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_Adon_AdonType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductAdon_Adon" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_AdOnTypeInProduct_AdonType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_AdOnTypeInProduct_ProductsInBranches" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductAdon_AdOnTypeInProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_BranchDeliveryArea_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductsInBranches_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ContactAddresses_CotactInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_Orders_CotactInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_UserLogin_CotactInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_OptionTypesInProduct_OptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductOptions_OptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_OptionTypesInProduct_ProductsInBranches" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductOptionsInProducts_OptionTypesInProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_OrderDetailAdOns_OrderDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_OrderDetailOptions_OrderDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_OrderDetails_Orders1" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_Orders_OrderType" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_Products_ProductCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductOptionsInProducts_ProductOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_ProductsInBranches_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="KlickModel.FK_UserLogin_UserLoginType" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetailSubProduct" Width="1.5" PointX="5.3228221672227711" PointY="25.505031478360774" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetailSubProductAdon" Width="1.5" PointX="7.9502129666275412" PointY="24.381528895525975" />
+        <EntityTypeShape EntityType="KlickModel.OrderDetailSubProductOption" Width="1.5" PointX="8.5043653624618258" PointY="18.309822359266608" />
+        <EntityTypeShape EntityType="KlickModel.ProductChildAdon" Width="1.5" PointX="1.0293077905798833" PointY="25.250435438589395" />
+        <EntityTypeShape EntityType="KlickModel.ProductChildProductOption" Width="1.5" PointX="2.586616349679705" PointY="12.169511219565528" />
+        <AssociationConnector Association="KlickModel.FK_OrderDetailSubProductId_OrderDetails" />
+        <EntityTypeShape EntityType="KlickModel.ProductActivation" Width="1.5" PointX="4.0746422876020159" PointY="28.165336964728933" />
+        <EntityTypeShape EntityType="KlickModel.SliderImage" Width="1.5" PointX="3.5529378091697295" PointY="13.067756673818341" />
+        <EntityTypeShape EntityType="KlickModel.Log" Width="1.5" PointX="6.5582684774688769" PointY="1.2863626486092632" />
+        <EntityTypeShape EntityType="KlickModel.PromotionCode" Width="1.5" PointX="6.3715154558287539" PointY="5.2695115382175484" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

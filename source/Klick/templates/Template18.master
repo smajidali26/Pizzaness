@@ -1,0 +1,2204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template18.master.cs" Inherits="templates_Template18" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<link rel='stylesheet' href='/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.8.2' type='text/css' media='all'>
+<link rel='stylesheet' href='/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.7.5' type='text/css' media='all'>
+<link rel='stylesheet' href='/wp-content/uploads/layerslider.custom.css?ver=6.7.5' type='text/css' media='all'>
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all'>
+<link rel='stylesheet' href='/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.9.8' type='text/css' media='all'>
+<link rel='stylesheet' href='/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7.3' type='text/css' media='all'>
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/style.css?ver=1.0.0' type='text/css' media='screen, print'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/adaptive.css?ver=1.0.0' type='text/css' media='screen, print'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/retina.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/fontello.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/fontello-custom.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/animate.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/cmsmasters-woo-style.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/cmsmasters-woo-adaptive.css?ver=1.0.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/ilightbox.css?ver=2.2.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/themes/pizza-restaurant/css/ilightbox-skins/dark-skin.css?ver=2.2.0' type='text/css' media='screen'>
+<link rel='stylesheet' href='/wp-content/uploads/cmsmasters_styles/pizza-restaurant.css?ver=1.0.0' type='text/css' media='screen'>
+<!--[if lte IE 9]>
+<link rel='stylesheet' href='http://pizza-restaurant.cmsmasters.net/wp-content/uploads/cmsmasters_styles/pizza-restaurant_fonts.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<!--[if lte IE 9]>
+<link rel='stylesheet' href='http://pizza-restaurant.cmsmasters.net/wp-content/uploads/cmsmasters_styles/pizza-restaurant_colors_primary.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<!--[if lte IE 9]>
+<link rel='stylesheet' href='http://pizza-restaurant.cmsmasters.net/wp-content/uploads/cmsmasters_styles/pizza-restaurant_colors_secondary.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' href='http://pizza-restaurant.cmsmasters.net/wp-content/themes/pizza-restaurant/css/ie.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Leckerli+One%7CPort+Lligat+Slab%7CYanone+Kaffeesatz%3A300%2C400%2C700&#038;ver=4.9.8' type='text/css' media='all'>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.5'></script>
+<script type='text/javascript' src='plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"http:\/\/pizza-restaurant.cmsmasters.net\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":".pizza-restaurant.cmsmasters.net","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/cookie-notice/js/front.min.js?ver=1.2.43'></script>
+<script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.3'></script>
+<script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.3'></script>
+<script type='text/javascript' src='themes/pizza-restaurant/js/jsLibraries.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='themes/pizza-restaurant/js/jquery.iLightBox.min.js?ver=2.2.0'></script>
+<meta name="generator" content="Powered by LayerSlider 6.7.5 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress.">
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+
+<style type="text/css">
+	.header_top {
+		height : 32px;
+	}
+	
+	.header_mid {
+		height : 140px;
+	}
+	
+	.header_bot {
+		height : 60px;
+	}
+	
+	#page.cmsmasters_heading_after_header #middle, 
+	#page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+		padding-top : 140px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer {
+		padding-top : 172px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 200px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 232px;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_top,
+		.header_mid,
+		.header_bot {
+			height : auto;
+		}
+		
+		.header_mid .header_mid_inner > div:not(.search_wrap) {
+			height : 140px;
+		}
+		
+		.header_bot .header_bot_inner > div {
+			height : 60px;
+		}
+		
+		.enable_header_centered #header .header_mid .resp_mid_nav_wrap {
+			height : 60px;
+		}
+		
+		#page.cmsmasters_heading_after_header #middle, 
+		#page.cmsmasters_heading_under_header #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+			padding-top : 0 !important;
+		}
+	}
+	
+	@media only screen and (max-width: 768px) {
+		.enable_header_centered #header .header_mid .resp_mid_nav_wrap,
+		.header_mid .header_mid_inner > div:not(.search_wrap),
+		.header_mid .header_mid_inner > div, 
+		.header_bot .header_bot_inner > div {
+			height:auto;
+		}
+	}
+.cmsmasters_menu_wrap {
+overflow:hidden;
+}
+.cmsmasters_menu_wrap .cmsmasters_menu {
+width:50%;
+float:left;
+}
+
+.cmsmasters_menu_wrap .cmsmasters_menu +  .cmsmasters_menu {
+padding-left:40px;
+}
+@media only screen and (max-width: 767px) {
+.cmsmasters_menu_wrap .cmsmasters_menu {
+width:100%;
+float:left;
+}
+.cmsmasters_menu_wrap .cmsmasters_menu +  .cmsmasters_menu {
+padding-left:0;
+}
+}
+	.header_mid .header_mid_inner .logo_wrap {
+		width : 119px;
+	}
+
+	.header_mid_inner .logo .logo_retina {
+		width : 91px;
+		max-width : 91px;
+	}
+</style>	<style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div id="page" class="csstransition cmsmasters_liquid fixed_header cmsmasters_heading_under_header hfeed site">
+
+<!-- _________________________ Start Main _________________________ -->
+<div id="main">
+	
+<!-- _________________________ Start Header _________________________ -->
+<header id="header" class="header_fullwidth">
+	<div class="header_mid" data-height="140"><div class="header_mid_outer"><div class="header_mid_inner"><div class="logo_wrap"><a href="index.html" title="Pizza Restaurant" class="logo">
+	<img src="wp-content\uploads\2016\09\logo.png" alt="Pizza Restaurant"><img class="logo_retina" src="wp-content\uploads\2016\09\pizza-logo-retina.png" alt="Pizza Restaurant" width="91" height="104"></a>
+</div><div class="resp_mid_nav_wrap"><div class="resp_mid_nav_outer"><a class="responsive_nav resp_mid_nav" href="javascript:void(0);"><span></span></a></div></div><div class="slogan_wrap"><div class="slogan_wrap_inner"><div class="slogan_wrap_text"><a class="button" href="reservations\index.html">book a table</a></div></div></div><div class="cmsmasters_dynamic_cart_wrap"><div class="cmsmasters_dynamic_cart"><a href="cart\index.html" class="cmsmasters_dynamic_cart_button"><span class="cmsmasters_theme_icon_basket">0</span></a><div class="widget_shopping_cart_content"></div></div></div><div class="search_wrap"><div class="search_wrap_inner"><a href="javascript:void(0);" class="search_icon_but cmsmasters_theme_icon_search"></a><a href="javascript:void(0);" class="search_icon_close"></a>
+<div class="search_bar_wrap">
+	
+		<p class="search_field">
+			<input name="s" placeholder="Search..." value="" type="search" autocomplete="off">
+		</p>
+		<p class="search_button">
+			<button type="submit" class="cmsmasters_theme_icon_search"></button>
+		</p>
+</div>
+
+</div></div><!-- _________________________ Start Navigation _________________________ --><div class="mid_nav_wrap"><nav><div class="menu-main-menu-container"><ul id="navigation" class="mid_nav navigation"><li id="menu-item-12027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7366 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-12027 menu-item-depth-0"><a href="index.html"><span class="nav_item_wrap"><span class="nav_title">Home</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7366 current_page_item menu-item-12567 menu-item-depth-1"><a href="index.html"><span class="nav_item_wrap"><span class="nav_title">Pizza Restaurant</span></span></a>	</li>
+	<li id="menu-item-12561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12561 menu-item-depth-1"><a href="http://burger.pizza-restaurant.cmsmasters.net/"><span class="nav_item_wrap"><span class="nav_title">Burger Restaurant</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-12028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12028 menu-item-depth-0"><a href="menu\index.html"><span class="nav_item_wrap"><span class="nav_title">Menu</span><span class="nav_tag">Hot!</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12569 menu-item-depth-1"><a href="menu\index.html"><span class="nav_item_wrap"><span class="nav_title">Menu Variant 1</span></span></a>	</li>
+	<li id="menu-item-12568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12568 menu-item-depth-1"><a href="menu-v2\index.html"><span class="nav_item_wrap"><span class="nav_title">Menu Variant 2</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-11956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11956 menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Features</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12020 menu-item-depth-1"><a href="about-us\index.html"><span class="nav_item_wrap"><span class="nav_title">About Us</span></span></a>	</li>
+	<li id="menu-item-12029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12029 menu-item-depth-1"><a href="what-customers-say\index.html"><span class="nav_item_wrap"><span class="nav_title">What Customers Say</span></span></a>	</li>
+	<li id="menu-item-12030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12030 menu-item-depth-1"><a href="news\index.html"><span class="nav_item_wrap"><span class="nav_title">News</span></span></a>	</li>
+	<li id="menu-item-12626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12626 menu-item-depth-1"><a href="reservations\index.html"><span class="nav_item_wrap"><span class="nav_title">Table Booking</span></span></a>	</li>
+	<li id="menu-item-11985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11985 menu-item-depth-1"><a href="contacts\index.html"><span class="nav_item_wrap"><span class="nav_title">Contacts</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-11952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11952 menu-item-mega menu-item-mega-cols-four menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Shortcodes</span></span></a>
+<div class="menu-item-mega-container">
+<ul class="sub-menu">
+	<li id="menu-item-11963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11963 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">1</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-11986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11986 menu-item-depth-subitem"><a href="blog-shortcode\index.html"><span class="nav_item_wrap"><span class="nav_title">Blog Shortcode</span></span></a>		</li>
+		<li id="menu-item-11987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11987 menu-item-depth-subitem"><a href="buttons-icons\index.html"><span class="nav_item_wrap"><span class="nav_title">Buttons &#038; Icons</span></span></a>		</li>
+		<li id="menu-item-11988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11988 menu-item-depth-subitem"><a href="clients\index.html"><span class="nav_item_wrap"><span class="nav_title">Clients</span></span></a>		</li>
+		<li id="menu-item-11989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11989 menu-item-depth-subitem"><a href="contact-forms\index.html"><span class="nav_item_wrap"><span class="nav_title">Contact forms</span></span></a>		</li>
+		<li id="menu-item-11990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11990 menu-item-depth-subitem"><a href="counters-progress-bars\index.html"><span class="nav_item_wrap"><span class="nav_title">Counters &#038; Progress Bars</span></span></a>		</li>
+		<li id="menu-item-11991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11991 menu-item-depth-subitem"><a href="custom-html-css-js\index.html"><span class="nav_item_wrap"><span class="nav_title">Custom HTML, CSS, JS</span></span></a>		</li>
+		<li id="menu-item-11992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11992 menu-item-depth-subitem"><a href="dividers\index.html"><span class="nav_item_wrap"><span class="nav_title">Dividers</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-11953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11953 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">2</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-11998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11998 menu-item-depth-subitem"><a href="embedded\index.html"><span class="nav_item_wrap"><span class="nav_title">Embedded</span></span></a>		</li>
+		<li id="menu-item-11999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11999 menu-item-depth-subitem"><a href="featured-blocks\index.html"><span class="nav_item_wrap"><span class="nav_title">Featured Blocks</span></span></a>		</li>
+		<li id="menu-item-11997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11997 menu-item-depth-subitem"><a href="gallery\index.html"><span class="nav_item_wrap"><span class="nav_title">Gallery</span></span></a>		</li>
+		<li id="menu-item-11996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11996 menu-item-depth-subitem"><a href="google-maps\index.html"><span class="nav_item_wrap"><span class="nav_title">Google Maps</span></span></a>		</li>
+		<li id="menu-item-11995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11995 menu-item-depth-subitem"><a href="icon-boxes\index.html"><span class="nav_item_wrap"><span class="nav_title">Icon Boxes</span></span></a>		</li>
+		<li id="menu-item-11994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11994 menu-item-depth-subitem"><a href="icon-lists\index.html"><span class="nav_item_wrap"><span class="nav_title">Icon Lists</span></span></a>		</li>
+		<li id="menu-item-11993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11993 menu-item-depth-subitem"><a href="images\index.html"><span class="nav_item_wrap"><span class="nav_title">Images</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-11954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11954 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">3</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12000 menu-item-depth-subitem"><a href="notice-boxes\index.html"><span class="nav_item_wrap"><span class="nav_title">Notice Boxes</span></span></a>		</li>
+		<li id="menu-item-12007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12007 menu-item-depth-subitem"><a href="portfolio-shortcode\index.html"><span class="nav_item_wrap"><span class="nav_title">Portfolio Shortcode</span></span></a>		</li>
+		<li id="menu-item-12001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12001 menu-item-depth-subitem"><a href="posts-or-projects-slider\index.html"><span class="nav_item_wrap"><span class="nav_title">Posts or Projects Slider</span></span></a>		</li>
+		<li id="menu-item-12002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12002 menu-item-depth-subitem"><a href="pricing-tables\index.html"><span class="nav_item_wrap"><span class="nav_title">Pricing Tables</span></span></a>		</li>
+		<li id="menu-item-12003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12003 menu-item-depth-subitem"><a href="profiles\index.html"><span class="nav_item_wrap"><span class="nav_title">Profiles</span></span></a>		</li>
+		<li id="menu-item-12005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12005 menu-item-depth-subitem"><a href="quotes\index.html"><span class="nav_item_wrap"><span class="nav_title">Quotes</span></span></a>		</li>
+		<li id="menu-item-12006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12006 menu-item-depth-subitem"><a href="sidebar\index.html"><span class="nav_item_wrap"><span class="nav_title">Sidebars</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-11955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11955 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">4</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12004 menu-item-depth-subitem"><a href="sliders\index.html"><span class="nav_item_wrap"><span class="nav_title">Sliders</span></span></a>		</li>
+		<li id="menu-item-12013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12013 menu-item-depth-subitem"><a href="social-sharing\index.html"><span class="nav_item_wrap"><span class="nav_title">Social Sharing</span></span></a>		</li>
+		<li id="menu-item-12012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12012 menu-item-depth-subitem"><a href="special-headings\index.html"><span class="nav_item_wrap"><span class="nav_title">Special Headings</span></span></a>		</li>
+		<li id="menu-item-12011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12011 menu-item-depth-subitem"><a href="tables\index.html"><span class="nav_item_wrap"><span class="nav_title">Tables</span></span></a>		</li>
+		<li id="menu-item-12010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12010 menu-item-depth-subitem"><a href="tabs-tours\index.html"><span class="nav_item_wrap"><span class="nav_title">Tabs &#038; Tours</span></span></a>		</li>
+		<li id="menu-item-12009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12009 menu-item-depth-subitem"><a href="toggles-accordions\index.html"><span class="nav_item_wrap"><span class="nav_title">Toggles &#038; Accordions</span></span></a>		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+</li>
+<li id="menu-item-11957" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11957 menu-item-mega menu-item-mega-cols-three menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Post Types</span></span></a>
+<div class="menu-item-mega-container">
+<ul class="sub-menu">
+	<li id="menu-item-11958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11958 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Blog</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12016 menu-item-depth-subitem"><a href="standard-blog\index.html"><span class="nav_item_wrap"><span class="nav_title">Standard Blog</span></span></a>		</li>
+		<li id="menu-item-12015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12015 menu-item-depth-subitem"><a href="masonry-blog\index.html"><span class="nav_item_wrap"><span class="nav_title">Masonry Blog</span></span></a>		</li>
+		<li id="menu-item-12014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12014 menu-item-depth-subitem"><a href="timeline-blog\index.html"><span class="nav_item_wrap"><span class="nav_title">Timeline Blog</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-11960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11960 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Portfolio</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12022 menu-item-depth-subitem"><a href="large-gap-masonry\index.html"><span class="nav_item_wrap"><span class="nav_title">Large Gap</span></span></a>		</li>
+		<li id="menu-item-12023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12023 menu-item-depth-subitem"><a href="no-gap-masonry\index.html"><span class="nav_item_wrap"><span class="nav_title">No Gap</span></span></a>		</li>
+		<li id="menu-item-12026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12026 menu-item-depth-subitem"><a href="1-pixel-gap-masonry\index.html"><span class="nav_item_wrap"><span class="nav_title">1 Pixel Gap</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-11961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11961 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Profiles</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12024 menu-item-depth-subitem"><a href="horizontal\index.html"><span class="nav_item_wrap"><span class="nav_title">Horizontal</span></span></a>		</li>
+		<li id="menu-item-12025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12025 menu-item-depth-subitem"><a href="vertical\index.html"><span class="nav_item_wrap"><span class="nav_title">Vertical</span></span></a>		</li>
+		<li id="menu-item-11962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11962 menu-item-depth-subitem"><a href="profile\daniel-jameson\index.html"><span class="nav_item_wrap"><span class="nav_title">Open Profile</span></span></a>		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+</li>
+<li id="menu-item-11984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11984 menu-item-depth-0"><a href="shop\index.html"><span class="nav_item_wrap"><span class="nav_title">Shop</span></span></a></li>
+</ul></div></nav></div><!-- _________________________ Finish Navigation _________________________ --></div></div></div></header>
+<!-- _________________________ Finish Header _________________________ -->
+
+	
+<!-- _________________________ Start Middle _________________________ -->
+<div id="middle">
+<div class="middle_inner">
+<div class="content_wrap fullwidth">
+
+<!--_________________________ Start Content _________________________ -->
+<div class="middle_content entry"></div></div><style type="text/css"> 
+#cmsmasters_row_5b7c2f6858c97 .cmsmasters_row_outer_parent { 
+	padding-top: 0px; 
+} 
+
+#cmsmasters_row_5b7c2f6858c97 .cmsmasters_row_outer_parent { 
+	padding-bottom: 0px; 
+} 
+
+#cmsmasters_row_5b7c2f6858c97 .cmsmasters_row_inner.cmsmasters_row_fullwidth { 
+	padding-left:0%; 
+} 
+#cmsmasters_row_5b7c2f6858c97 .cmsmasters_row_inner.cmsmasters_row_fullwidth { 
+	padding-right:0%; 
+} 
+ 
+#cmsmasters_row_5b7c2f685911c { 
+	background-image: url(wp-content/uploads/2015/11/Untitled-1.jpeg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-size: cover; 
+} 
+
+#cmsmasters_row_5b7c2f685911c .cmsmasters_row_outer_parent { 
+	padding-top: 135px; 
+} 
+
+#cmsmasters_row_5b7c2f685911c .cmsmasters_row_outer_parent { 
+	padding-bottom: 85px; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f6859483 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:10px; 
+} 
+
+#cmsmasters_heading_5b7c2f6859483 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f6859483 .cmsmasters_heading, #cmsmasters_heading_5b7c2f6859483 .cmsmasters_heading a { 
+	font-size:72px; 
+	line-height:80px; 
+	font-weight:bold; 
+	font-style:normal; 
+} 
+
+#cmsmasters_heading_5b7c2f6859483 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f6859542 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:40px; 
+} 
+
+#cmsmasters_heading_5b7c2f6859542 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f6859542 .cmsmasters_heading, #cmsmasters_heading_5b7c2f6859542 .cmsmasters_heading a { 
+	font-size:24px; 
+	line-height:26px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#cfdf5a;
+} 
+
+#cmsmasters_heading_5b7c2f6859542 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_divider_5b7c2f68595c4 { 
+	border-bottom-width:0px; 
+	border-bottom-style:solid; 
+	padding-top:0px; 
+	margin-bottom:50px; 
+} 
+ 
+#cmsmasters_row_5b7c2f685d62d { 
+	background-color:#e86a38;
+} 
+
+#cmsmasters_row_5b7c2f685d62d .cmsmasters_row_outer_parent { 
+	padding-top: 70px; 
+} 
+
+#cmsmasters_row_5b7c2f685d62d .cmsmasters_row_outer_parent { 
+	padding-bottom: 70px; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685d7c2 { 
+	text-align:left; 
+	margin-top:0px; 
+	margin-bottom:10px; 
+} 
+
+#cmsmasters_heading_5b7c2f685d7c2 .cmsmasters_heading { 
+	text-align:left; 
+} 
+
+#cmsmasters_heading_5b7c2f685d7c2 .cmsmasters_heading, #cmsmasters_heading_5b7c2f685d7c2 .cmsmasters_heading a { 
+	font-size:56px; 
+	line-height:60px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685d7c2 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685d87e { 
+	text-align:left; 
+	margin-top:0px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_heading_5b7c2f685d87e .cmsmasters_heading { 
+	text-align:left; 
+} 
+
+#cmsmasters_heading_5b7c2f685d87e .cmsmasters_heading, #cmsmasters_heading_5b7c2f685d87e .cmsmasters_heading a { 
+	font-size:24px; 
+	line-height:26px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685d87e .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_divider_5b7c2f685d94c { 
+	border-bottom-width:0px; 
+	border-bottom-style:solid; 
+	padding-top:30px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_button_5b7c2f685d99f { 
+	text-align:center; 
+} 
+
+#cmsmasters_button_5b7c2f685d99f .cmsmasters_button:before { 
+	margin-right:.5em; 
+	margin-left:0; 
+	vertical-align:baseline; 
+} 
+
+#cmsmasters_button_5b7c2f685d99f .cmsmasters_button { 
+	font-weight:bold; 
+	font-style:normal; 
+	border-width:2px; 
+	border-style:solid; 
+	background-color:rgba(255,255,255,0);
+	color:#ffffff;
+	border-color:#ffffff;
+} 
+#cmsmasters_button_5b7c2f685d99f .cmsmasters_button:hover { 
+	background-color:#ffffff;
+	color:#e76937;
+	border-color:#ffffff;
+} 
+ 
+#cmsmasters_row_5b7c2f685da03 { 
+	background-image: url(wp-content/uploads/2015/11/2-2.jpeg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-size: cover; 
+} 
+
+#cmsmasters_row_5b7c2f685da03 .cmsmasters_row_outer_parent { 
+	padding-top: 150px; 
+} 
+
+#cmsmasters_row_5b7c2f685da03 .cmsmasters_row_outer_parent { 
+	padding-bottom: 200px; 
+} 
+
+ 
+#cmsmasters_divider_5b7c2f685deda { 
+	border-bottom-width:0px; 
+	border-bottom-style:solid; 
+	padding-top:0px; 
+	margin-bottom:20px; 
+} 
+ 
+#cmsmasters_heading_5b7c2f685df9e { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_heading_5b7c2f685df9e .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685df9e .cmsmasters_heading, #cmsmasters_heading_5b7c2f685df9e .cmsmasters_heading a { 
+	font-size:84px; 
+	line-height:95px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685df9e .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685e05a { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:20px; 
+} 
+
+#cmsmasters_heading_5b7c2f685e05a .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685e05a .cmsmasters_heading, #cmsmasters_heading_5b7c2f685e05a .cmsmasters_heading a { 
+	font-size:84px; 
+	line-height:95px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685e05a .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685e10f { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_heading_5b7c2f685e10f .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685e10f .cmsmasters_heading, #cmsmasters_heading_5b7c2f685e10f .cmsmasters_heading a { 
+	font-size:30px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685e10f .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_row_5b7c2f685e186 { 
+	background-image: url(wp-content/uploads/2015/11/3-6.jpeg); 
+	background-position: top center; 
+	background-repeat: repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+} 
+
+#cmsmasters_row_5b7c2f685e186 .cmsmasters_row_outer_parent { 
+	padding-top: 135px; 
+} 
+
+#cmsmasters_row_5b7c2f685e186 .cmsmasters_row_outer_parent { 
+	padding-bottom: 125px; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685e569 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:10px; 
+} 
+
+#cmsmasters_heading_5b7c2f685e569 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685e569 .cmsmasters_heading, #cmsmasters_heading_5b7c2f685e569 .cmsmasters_heading a { 
+	font-size:56px; 
+	line-height:80px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685e569 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685e625 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:60px; 
+} 
+
+#cmsmasters_heading_5b7c2f685e625 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685e625 .cmsmasters_heading, #cmsmasters_heading_5b7c2f685e625 .cmsmasters_heading a { 
+	font-size:24px; 
+	line-height:26px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:rgba(255,255,255,0.8);
+} 
+
+#cmsmasters_heading_5b7c2f685e625 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01:before { 
+	background-color:#f1703d;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685ee52 > a { 
+	color:#feba11;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52:before { 
+	background-color:#feba11;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01:before { 
+	background-color:#f1703d;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685ee52 > a { 
+	color:#feba11;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685f15e > a:hover,#cmsmasters_tabs_list_item_5b7c2f685f15e > a { 
+	color:#cfdf5a;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685f15e:before { 
+	background-color:#cfdf5a;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01:before { 
+	background-color:#f1703d;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685ee52 > a { 
+	color:#feba11;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52:before { 
+	background-color:#feba11;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01:before { 
+	background-color:#f1703d;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685e72a:before { 
+	background-color:#f4452c;
+} 
+#cmsmasters_tabs_list_item_5b7c2f685e72a > a:hover,#cmsmasters_tabs_list_item_5b7c2f685e72a > a { 
+	color:#f4452c;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685eb01 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685eb01 > a { 
+	color:#f1703d;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685ee52 > a:hover,#cmsmasters_tabs_list_item_5b7c2f685ee52 > a { 
+	color:#feba11;
+} 
+
+#cmsmasters_tabs_list_item_5b7c2f685f15e > a:hover,#cmsmasters_tabs_list_item_5b7c2f685f15e > a { 
+	color:#cfdf5a;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+
+#cmsmasters_menu_item_5b7c2f685e8b3 .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#cfdf5a;
+} 
+#cmsmasters_menu_item_5b7c2f685ea4c .cmsmasters_menu_best_feature { 
+	color:#2c2b31;
+	background-color:#f1703d;
+} 
+ 
+#cmsmasters_divider_5b7c2f685f42a { 
+	border-bottom-width:0px; 
+	border-bottom-style:solid; 
+	padding-top:0px; 
+	margin-bottom:50px; 
+} 
+
+#cmsmasters_button_5b7c2f685f479 { 
+	text-align:center; 
+} 
+
+#cmsmasters_button_5b7c2f685f479 .cmsmasters_button:before { 
+	margin-right:.5em; 
+	margin-left:0; 
+	vertical-align:baseline; 
+} 
+
+#cmsmasters_button_5b7c2f685f479 .cmsmasters_button { 
+	font-weight:bold; 
+	font-style:normal; 
+	padding-right:30px; 
+	padding-left:30px; 
+	border-width:2px; 
+	border-style:solid; 
+	background-color:rgba(255,255,255,0);
+	color:#cfdf5a;
+	border-color:#cfdf5a;
+} 
+#cmsmasters_button_5b7c2f685f479 .cmsmasters_button:hover { 
+	background-color:#cfdf5a;
+	color:#28272a;
+	border-color:#cfdf5a;
+} 
+ 
+#cmsmasters_row_5b7c2f685f598 { 
+	background-color:#e44c37;
+} 
+
+#cmsmasters_row_5b7c2f685f598 .cmsmasters_row_outer_parent { 
+	padding-top: 50px; 
+} 
+
+#cmsmasters_row_5b7c2f685f598 .cmsmasters_row_outer_parent { 
+	padding-bottom: 45px; 
+} 
+
+ 
+#cmsmasters_counters_5b7c2f685f692 .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner, 
+#cmsmasters_counters_5b7c2f685f692 .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner, #cmsmasters_counters_5b7c2f685f692 .cmsmasters_counter.counter_has_image .cmsmasters_counter_inner { 
+	padding-top:70px; 
+} 
+
+#cmsmasters_counters_5b7c2f685f692.counters_type_vertical .cmsmasters_counter .cmsmasters_counter_inner:before { 
+	margin-left:-30px; 
+} 
+
+#cmsmasters_counters_5b7c2f685f692.counters_type_horizontal .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap { 
+	line-height:60px; 
+} 
+
+#cmsmasters_counters_5b7c2f685f692 .cmsmasters_counter .cmsmasters_counter_inner:before { 
+	font-size:30px; 
+	line-height:60px; 
+	width:60px; 
+	height:60px; 
+	border-width:0px; 
+	-webkit-border-radius:50%; 
+	border-radius:50%; 
+} 
+
+
+#cmsmasters_counter_5b7c2f685f76c .cmsmasters_counter_inner:before { 
+} 
+
+#cmsmasters_counter_5b7c2f685f76c .cmsmasters_counter_counter_wrap { 
+	color:#ffffff;
+} 
+
+#cmsmasters_counter_5b7c2f685f7fd .cmsmasters_counter_inner:before { 
+} 
+
+#cmsmasters_counter_5b7c2f685f7fd .cmsmasters_counter_counter_wrap { 
+	color:#ffffff;
+} 
+
+#cmsmasters_counter_5b7c2f685f889 .cmsmasters_counter_inner:before { 
+} 
+
+#cmsmasters_counter_5b7c2f685f889 .cmsmasters_counter_counter_wrap { 
+	color:#ffffff;
+} 
+
+#cmsmasters_counter_5b7c2f685f910 .cmsmasters_counter_inner:before { 
+} 
+
+#cmsmasters_counter_5b7c2f685f910 .cmsmasters_counter_counter_wrap { 
+	color:#ffffff;
+} 
+ 
+#cmsmasters_row_5b7c2f685fa8e { 
+	background-image: url(wp-content/uploads/2015/11/4-3.jpeg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-size: cover; 
+} 
+
+#cmsmasters_row_5b7c2f685fa8e .cmsmasters_row_outer_parent { 
+	padding-top: 165px; 
+} 
+
+#cmsmasters_row_5b7c2f685fa8e .cmsmasters_row_outer_parent { 
+	padding-bottom: 170px; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f685fe14 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_heading_5b7c2f685fe14 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f685fe14 .cmsmasters_heading, #cmsmasters_heading_5b7c2f685fe14 .cmsmasters_heading a { 
+	font-size:56px; 
+	line-height:80px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f685fe14 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_row_5b7c2f68600f1 { 
+	background-image: url(wp-content/uploads/2015/11/22.jpeg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-size: cover; 
+} 
+
+#cmsmasters_row_5b7c2f68600f1 .cmsmasters_row_outer_parent { 
+	padding-top: 110px; 
+} 
+
+#cmsmasters_row_5b7c2f68600f1 .cmsmasters_row_outer_parent { 
+	padding-bottom: 100px; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f686040a { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:10px; 
+} 
+
+#cmsmasters_heading_5b7c2f686040a .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f686040a .cmsmasters_heading, #cmsmasters_heading_5b7c2f686040a .cmsmasters_heading a { 
+	font-size:56px; 
+	line-height:80px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#ffffff;
+} 
+
+#cmsmasters_heading_5b7c2f686040a .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f68604c7 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:75px; 
+} 
+
+#cmsmasters_heading_5b7c2f68604c7 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f68604c7 .cmsmasters_heading, #cmsmasters_heading_5b7c2f68604c7 .cmsmasters_heading a { 
+	font-size:24px; 
+	line-height:26px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#f1703d;
+} 
+
+#cmsmasters_heading_5b7c2f68604c7 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_row_5b7c2f6862e7a .cmsmasters_row_inner.cmsmasters_row_fullwidth { 
+	padding-left:0%; 
+} 
+#cmsmasters_row_5b7c2f6862e7a .cmsmasters_row_inner.cmsmasters_row_fullwidth { 
+	padding-right:0%; 
+} 
+ 
+
+#cmsmasters_fb_5b7c2f6862fb2 { 
+	padding-top:240px; 
+	padding-bottom:220px; 
+	background-color:#d6e664;
+} 
+
+#cmsmasters_fb_5b7c2f6862fb2 .featured_block_inner { 
+	width: 100%; 
+	padding: ; 
+	text-align: left; 
+	margin:0 auto; 
+} 
+
+#cmsmasters_fb_5b7c2f6862fb2 .featured_block_text { 
+	text-align: left; 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f68630d9 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:0px; 
+} 
+
+#cmsmasters_heading_5b7c2f68630d9 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f68630d9 .cmsmasters_heading, #cmsmasters_heading_5b7c2f68630d9 .cmsmasters_heading a { 
+	font-size:30px; 
+	line-height:48px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#2c2b31;
+} 
+
+#cmsmasters_heading_5b7c2f68630d9 .cmsmasters_heading_divider { 
+} 
+
+ 
+#cmsmasters_heading_5b7c2f6863198 { 
+	text-align:center; 
+	margin-top:0px; 
+	margin-bottom:30px; 
+} 
+
+#cmsmasters_heading_5b7c2f6863198 .cmsmasters_heading { 
+	text-align:center; 
+} 
+
+#cmsmasters_heading_5b7c2f6863198 .cmsmasters_heading, #cmsmasters_heading_5b7c2f6863198 .cmsmasters_heading a { 
+	font-size:30px; 
+	line-height:48px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#2c2b31;
+} 
+
+#cmsmasters_heading_5b7c2f6863198 .cmsmasters_heading_divider { 
+} 
+
+
+#cmsmasters_button_5b7c2f68631f3 { 
+	text-align:center; 
+} 
+
+#cmsmasters_button_5b7c2f68631f3 .cmsmasters_button:before { 
+	margin-right:.5em; 
+	margin-left:0; 
+	vertical-align:baseline; 
+} 
+
+#cmsmasters_button_5b7c2f68631f3 .cmsmasters_button { 
+	font-weight:bold; 
+	font-style:normal; 
+	border-width:2px; 
+	border-style:solid; 
+	color:#2c2b31;
+	border-color:#2c2b31;
+} 
+#cmsmasters_button_5b7c2f68631f3 .cmsmasters_button:hover { 
+	background-color:#2c2b31;
+	color:#d6e664;
+	border-color:#2c2b31;
+} 
+ 
+
+#cmsmasters_fb_5b7c2f68632f4 { 
+	padding-top:240px; 
+	padding-bottom:220px; 
+	background-image: url(wp-content/uploads/2015/11/3-4.jpeg); 
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-size: cover; 
+} 
+
+#cmsmasters_fb_5b7c2f68632f4 .featured_block_inner { 
+	width: 100%; 
+	padding: ; 
+	text-align: left; 
+	margin:0 auto; 
+} 
+
+#cmsmasters_fb_5b7c2f68632f4 .featured_block_text { 
+	text-align: left; 
+} 
+
+ 
+#cmsmasters_icon_5b7c2f686356a { 
+	display:block; 
+	text-align:center; } 
+
+#cmsmasters_icon_5b7c2f686356a .cmsmasters_simple_icon { 
+	border-width:0px; 
+	width:85px; 
+	height:85px; 
+	font-size:65px; 
+	line-height:85px; 
+	text-align:center; 
+	-webkit-border-radius:50%; 
+	border-radius:50%; 
+	color:#ffffff;} 
+</style><div id="cmsmasters_row_5b7c2f6858c97" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+<div class="cmsmasters_slider"><script type="text/javascript">var lsjQuery = jQuery; lsjQuery(document).ready(function () {
+                                       if (typeof lsjQuery.fn.layerSlider == "undefined") {
+                                           if (window._layerSlider && window._layerSlider.showNotice) {
+                                               window._layerSlider.showNotice('layerslider_1', 'jquery');
+                                           }
+                                       } else {
+                                           lsjQuery("#layerslider_1").layerSlider({ sliderVersion: '6.1.0', type: 'fullwidth', responsiveUnder: 0, layersContainer: 0, hideOnMobile: true, hideUnder: 720, hideOver: 100000, skin: 'v5', showCircleTimer: false, skinsPath: 'http://pizza-restaurant.cmsmasters.net/wp-content/plugins/LayerSlider/static/layerslider/skins/' });
+                                       }
+                                   });
+</script><div id="layerslider_1" class="ls-wp-container fitvidsignore" style="width:1920px;height:920px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="duration:3000;transition2d:1,2,3,4,5,103,104;kenburnsscale:1.2;"><img width="1920" height="923" src="wp-content\uploads\2016\08\1.jpeg" class="ls-bg" alt="" srcset="wp-content\uploads\2016\08\1.jpeg 1920w, wp-content\uploads\2016\08\1-300x144.jpeg 300w, wp-content\uploads\2016\08\1-768x369.jpeg 768w, wp-content\uploads\2016\08\1-1024x492.jpeg 1024w, wp-content\uploads\2016\08\1-580x279.jpeg 580w, wp-content\uploads\2016\08\1-860x413.jpeg 860w, wp-content\uploads\2016\08\1-1160x558.jpeg 1160w" sizes="(max-width: 1920px) 100vw, 1920px"><img width="203" height="106" src="wp-content\uploads\2015\11\1-white.png" class="ls-l" alt="" style="top:207px;left:852px;" data-ls="durationin:2000;rotateyin:360;durationout:400;parallaxlevel:0;"><img width="703" height="135" src="wp-content\uploads\2016\08\13.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\08\13.png 703w, wp-content\uploads\2016\08\13-300x58.png 300w, wp-content\uploads\2016\08\13-580x111.png 580w" sizes="(max-width: 703px) 100vw, 703px" style="top:340px;left:610px;" data-ls="offsetxin:-200;offsetxout:-200;durationout:400;parallaxlevel:0;"><img width="110" height="46" src="wp-content\uploads\2016\08\lines-left.png" class="ls-l" alt="" style="top:375px;left:570px;" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;"><img width="110" height="46" src="wp-content\uploads\2016\08\lines-right.png" class="ls-l" alt="" style="top:360px;left:1240px;" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;"><h1 style="font-size:95px;line-height:95px;color:#ffffff;top:358px;left:721px;" class="ls-l" data-ls="offsetxin:-200;offsetxout:-200;durationout:400;parallaxlevel:0;">BRINGING PEOPLE</h1><img width="557" height="96" src="wp-content\uploads\2016\08\12.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\08\12.png 557w, wp-content\uploads\2016\08\12-300x52.png 300w" sizes="(max-width: 557px) 100vw, 557px" style="top:550px;left:682px;" data-ls="offsetyin:100;delayin:800;offsetyout:100;durationout:400;parallaxlevel:0;"><h4 style="font-size:36px;color:#ffffff;top:570px;left:740px;" class="ls-l" data-ls="offsetyin:-100;delayin:800;offsetyout:-100;durationout:400;parallaxlevel:0;">with a slice of tasty pizza!</h4><img width="450" height="117" src="wp-content\uploads\2016\08\14.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\08\14.png 450w, wp-content\uploads\2016\08\14-300x78.png 300w" sizes="(max-width: 450px) 100vw, 450px" style="top:440px;left:740px;" data-ls="offsetxin:200;delayin:200;offsetxout:200;durationout:400;parallaxlevel:0;"><h1 style="font-size:95px;line-height:95px;color:#313036;top:460px;left:823px;" class="ls-l" data-ls="offsetxin:200;delayin:200;offsetxout:200;durationout:400;parallaxlevel:0;">TOGETHER</h1><img width="203" height="106" src="wp-content\uploads\2015\11\2-white.png" class="ls-l" alt="" style="top:673px;left:849px;" data-ls="durationin:2000;rotateyin:-360;durationout:400;parallaxlevel:0;"></div><div class="ls-slide" data-ls="duration:3000;transition2d:1,2,3,4,5,103,104;kenburnsscale:1.2;"><img width="1920" height="923" src="wp-content\uploads\2016\09\home-slider-2.jpeg" class="ls-bg" alt="" srcset="wp-content\uploads\2016\09\home-slider-2.jpeg 1920w, wp-content\uploads\2016\09\home-slider-2-300x144.jpeg 300w, wp-content\uploads\2016\09\home-slider-2-768x369.jpeg 768w, wp-content\uploads\2016\09\home-slider-2-1024x492.jpeg 1024w, wp-content\uploads\2016\09\home-slider-2-580x279.jpeg 580w, wp-content\uploads\2016\09\home-slider-2-860x413.jpeg 860w, wp-content\uploads\2016\09\home-slider-2-1160x558.jpeg 1160w" sizes="(max-width: 1920px) 100vw, 1920px"><img width="203" height="106" src="wp-content\uploads\2015\11\1-white.png" class="ls-l" alt="" style="top:214px;left:855px;" data-ls="durationin:2000;rotateyin:-360;durationout:400;parallaxlevel:0;"><img width="520" height="135" src="wp-content\uploads\2016\09\1.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\09\1.png 520w, wp-content\uploads\2016\09\1-300x78.png 300w" sizes="(max-width: 520px) 100vw, 520px" style="top:340px;left:700px;" data-ls="offsetxin:200;offsetxout:200;durationout:400;parallaxlevel:0;"><img width="557" height="96" src="wp-content\uploads\2016\09\3.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\09\3.png 557w, wp-content\uploads\2016\09\3-300x52.png 300w" sizes="(max-width: 557px) 100vw, 557px" style="top:552px;left:680px;" data-ls="offsetyin:100;delayin:800;offsetyout:100;durationout:400;parallaxlevel:0;"><h1 style="font-size:95px;line-height:95px;color:#ffffff;top:351px;left:815px;" class="ls-l" data-ls="offsetxin:200;offsetxout:200;durationout:400;parallaxlevel:0;">FREE PIZZA</h1><img width="450" height="117" src="wp-content\uploads\2016\09\2.png" class="ls-l" alt="" srcset="wp-content\uploads\2016\09\2.png 450w, wp-content\uploads\2016\09\2-300x78.png 300w" sizes="(max-width: 450px) 100vw, 450px" style="top:443px;left:735px;" data-ls="offsetxin:-200;delayin:200;offsetxout:-200;durationout:400;parallaxlevel:0;"><h1 style="font-size:95px;line-height:95px;color:#313036;top:460px;left:842px;" class="ls-l" data-ls="offsetxin:-200;delayin:200;offsetxout:-200;durationout:400;parallaxlevel:0;">DELIVERY</h1><h4 style="font-size:34px;color:#ffffff;top:578px;left:725px;" class="ls-l" data-ls="offsetyin:-100;delayin:800;offsetyout:-100;durationout:400;parallaxlevel:0;">We care about our customers!</h4><img width="203" height="106" src="wp-content\uploads\2015\11\2-white.png" class="ls-l" alt="" style="top:680px;left:855px;" data-ls="durationin:2000;rotateyin:360;durationout:400;parallaxlevel:0;"><img width="110" height="46" src="wp-content\uploads\2016\08\lines-left.png" class="ls-l" alt="" style="top:375px;left:658px;" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;"><img width="110" height="46" src="wp-content\uploads\2016\09\lines-right.png" class="ls-l" alt="" style="top:361px;left:1150px;" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685911c" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+
+<div id="cmsmasters_heading_5b7c2f6859483" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">welcome to pizza!</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f6859542" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">Family Cafe &amp; Pizzeria</h4>
+</div><div class="cmsmasters_text">
+<p style="text-align: center"><span>Apparently we had reached a great height in the atmosphere, for the sky was a</span><br>
+<span>dead black, and the stars had ceased to twinkle. By the same illusion which</span><br>
+<span> lifts the horizon of the sea to the level</span></p>
+</div>
+
+<div id="cmsmasters_divider_5b7c2f68595c4" class="cl"></div><div class="cmsmasters_posts_slider">
+		<script type="text/javascript">
+            jQuery(document).ready(function () {
+                var container = jQuery('.cmsmasters_slider_5b7c2f6859662');
+                containerWidth = container.width(),
+                    firstPost = container.find('article'),
+                    postMinWidth = Number(firstPost.css('minWidth').replace('px', '')),
+                    postThreeColumns = (postMinWidth * 4) - 1;
+                postTwoColumns = (postMinWidth * 3) - 1;
+                postOneColumns = (postMinWidth * 2) - 1;
+
+
+                jQuery('.cmsmasters_slider_5b7c2f6859662').owlCarousel({
+                    items: 3,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: [postThreeColumns, 3],
+                    itemsTablet: [postTwoColumns, 2],
+                    itemsMobile: [postOneColumns, 1],
+                    transitionStyle: false,
+                    rewindNav: true,
+                    slideSpeed: 200,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000, autoPlay: 5000, stopOnHover: true,
+                    autoHeight: true,
+                    addClassActive: true,
+                    responsiveBaseWidth: '.cmsmasters_slider_5b7c2f6859662',
+                    pagination: false,
+                    navigation: true,
+                    navigationText: ["<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>"]
+                });
+            });
+		</script>
+		<div id="cmsmasters_owl_carousel_5b7c2f6859662" class="cmsmasters_owl_slider cmsmasters_slider_5b7c2f6859662"><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-12099" class="cmsmasters_slider_project post-12099 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-value-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\9-360x360.jpeg" class="full-width wp-post-image" alt="Simply Cheese" title="Simply Cheese" srcset="wp-content\uploads\2015\01\9-360x360.jpeg 360w, wp-content\uploads\2015\01\9-150x150.jpeg 150w, wp-content\uploads\2015\01\9-300x300.jpeg 300w, wp-content\uploads\2015\01\9-70x70.jpeg 70w, wp-content\uploads\2015\01\9.jpeg 580w, wp-content\uploads\2015\01\9-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\simply-cheese\index.html" title="Simply Cheese" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\simply-cheese\index.html">Simply Cheese</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-619" class="cmsmasters_slider_project post-619 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-extra-value-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\8-1-360x360.jpeg" class="full-width wp-post-image" alt="Margherita" title="Margherita" srcset="wp-content\uploads\2015\01\8-1-360x360.jpeg 360w, wp-content\uploads\2015\01\8-1-150x150.jpeg 150w, wp-content\uploads\2015\01\8-1-300x300.jpeg 300w, wp-content\uploads\2015\01\8-1-70x70.jpeg 70w, wp-content\uploads\2015\01\8-1.jpeg 580w, wp-content\uploads\2015\01\8-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\margherita\index.html" title="Margherita" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\margherita\index.html">Margherita</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-617" class="cmsmasters_slider_project post-617 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-traditional-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\7-1-360x360.jpeg" class="full-width wp-post-image" alt="Fire Breather" title="Fire Breather" srcset="wp-content\uploads\2015\01\7-1-360x360.jpeg 360w, wp-content\uploads\2015\01\7-1-150x150.jpeg 150w, wp-content\uploads\2015\01\7-1-300x300.jpeg 300w, wp-content\uploads\2015\01\7-1-70x70.jpeg 70w, wp-content\uploads\2015\01\7-1.jpeg 580w, wp-content\uploads\2015\01\7-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\fire-breather\index.html" title="Fire Breather" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\fire-breather\index.html">Fire Breather</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-913" class="cmsmasters_slider_project post-913 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-traditional-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\6-1-360x360.jpeg" class="full-width wp-post-image" alt="Papperoni" title="Papperoni" srcset="wp-content\uploads\2015\01\6-1-360x360.jpeg 360w, wp-content\uploads\2015\01\6-1-150x150.jpeg 150w, wp-content\uploads\2015\01\6-1-300x300.jpeg 300w, wp-content\uploads\2015\01\6-1-70x70.jpeg 70w, wp-content\uploads\2015\01\6-1.jpeg 580w, wp-content\uploads\2015\01\6-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\papperoni\index.html" title="Papperoni" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\papperoni\index.html">Papperoni</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-613" class="cmsmasters_slider_project post-613 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-chicken-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\5-1-360x360.jpeg" class="full-width wp-post-image" alt="Tandoori Chicken" title="Tandoori Chicken" srcset="wp-content\uploads\2015\01\5-1-360x360.jpeg 360w, wp-content\uploads\2015\01\5-1-150x150.jpeg 150w, wp-content\uploads\2015\01\5-1-300x300.jpeg 300w, wp-content\uploads\2015\01\5-1-70x70.jpeg 70w, wp-content\uploads\2015\01\5-1.jpeg 580w, wp-content\uploads\2015\01\5-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\tandoori-chicken\index.html" title="Tandoori Chicken" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\tandoori-chicken\index.html">Tandoori Chicken</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-8414" class="cmsmasters_slider_project post-8414 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-value-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\4-1-360x360.jpeg" class="full-width wp-post-image" alt="Spicy Veg Trio" title="Spicy Veg Trio" srcset="wp-content\uploads\2015\01\4-1-360x360.jpeg 360w, wp-content\uploads\2015\01\4-1-150x150.jpeg 150w, wp-content\uploads\2015\01\4-1-300x300.jpeg 300w, wp-content\uploads\2015\01\4-1-70x70.jpeg 70w, wp-content\uploads\2015\01\4-1.jpeg 580w, wp-content\uploads\2015\01\4-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\spicy-veg-trio\index.html" title="Spicy Veg Trio" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\spicy-veg-trio\index.html">Spicy Veg Trio</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-611" class="cmsmasters_slider_project post-611 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-value-pizzas">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\3-1-360x360.jpeg" class="full-width wp-post-image" alt="Cheesy Garlic Pizza" title="Cheesy Garlic Pizza" srcset="wp-content\uploads\2015\01\3-1-360x360.jpeg 360w, wp-content\uploads\2015\01\3-1-150x150.jpeg 150w, wp-content\uploads\2015\01\3-1-300x300.jpeg 300w, wp-content\uploads\2015\01\3-1-70x70.jpeg 70w, wp-content\uploads\2015\01\3-1.jpeg 580w, wp-content\uploads\2015\01\3-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\cheesy-garlic-pizza\index.html" title="Cheesy Garlic Pizza" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\cheesy-garlic-pizza\index.html">Cheesy Garlic Pizza</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-606" class="cmsmasters_slider_project post-606 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-chef-s-best">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\2-1-360x360.jpeg" class="full-width wp-post-image" alt="Loaded Meatlovers" title="Loaded Meatlovers" srcset="wp-content\uploads\2015\01\2-1-360x360.jpeg 360w, wp-content\uploads\2015\01\2-1-150x150.jpeg 150w, wp-content\uploads\2015\01\2-1-300x300.jpeg 300w, wp-content\uploads\2015\01\2-1-70x70.jpeg 70w, wp-content\uploads\2015\01\2-1.jpeg 580w, wp-content\uploads\2015\01\2-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\loaded-meatlovers\index.html" title="Loaded Meatlovers" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\loaded-meatlovers\index.html">Loaded Meatlovers</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Project _________________________ -->
+
+<article id="post-9410" class="cmsmasters_slider_project post-9410 project type-project status-publish format-standard has-post-thumbnail hentry pj-categs-chef-s-best">
+	<div class="cmsmasters_slider_project_outer">
+	<div class="project_img_wrap"><figure class="cmsmasters_img_rollover_wrap preloader"><img width="360" height="360" src="wp-content\uploads\2015\01\1-1-360x360.jpeg" class="full-width wp-post-image" alt="Grand Supreme" title="Grand Supreme" srcset="wp-content\uploads\2015\01\1-1-360x360.jpeg 360w, wp-content\uploads\2015\01\1-1-150x150.jpeg 150w, wp-content\uploads\2015\01\1-1-300x300.jpeg 300w, wp-content\uploads\2015\01\1-1-70x70.jpeg 70w, wp-content\uploads\2015\01\1-1.jpeg 580w, wp-content\uploads\2015\01\1-1-180x180.jpeg 180w" sizes="(max-width: 360px) 100vw, 360px"><div class="cmsmasters_img_rollover"><a href="project\grand-supreme\index.html" title="Grand Supreme" class="cmsmasters_open_post_link cmsmasters_theme_custom_icon_post_link"></a></div></figure></div><div class="cmsmasters_slider_project_inner"><header class="cmsmasters_slider_project_header entry-header"><h4 class="cmsmasters_slider_project_title entry-title"><a href="project\grand-supreme\index.html">Grand Supreme</a></h4></header></div>	</div>
+</article>
+<!--_________________________ Finish Standard Project _________________________ -->
+
+</div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685d62d" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column two_third">
+
+<div id="cmsmasters_heading_5b7c2f685d7c2" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+	<h1 class="cmsmasters_heading">Get your pizza delivered!</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f685d87e" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+	<h4 class="cmsmasters_heading">Enjoy our luscious dishes wherever you want</h4>
+</div>
+</div>
+<div class="cmsmasters_column one_third">
+
+<div id="cmsmasters_divider_5b7c2f685d94c" class="cl"></div>
+<div id="cmsmasters_button_5b7c2f685d99f" class="button_wrap"><a href="shop\index.html" class="cmsmasters_button"><span>MAKE AN ORDER NOW!</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685da03" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+<div class="aligncenter">
+<div class="cmsmasters_img  cmsmasters_image_c">
+<img src="wp-content\uploads\2015\11\1-white.png">
+</div>
+</div>
+
+<div id="cmsmasters_divider_5b7c2f685deda" class="cl"></div>
+<div id="cmsmasters_heading_5b7c2f685df9e" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">Excellent taste,</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f685e05a" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">top quality</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f685e10f" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">we put 100% of love and dedication into our dishes</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685e186" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed" data-stellar-background-ratio="0.5">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+
+<div id="cmsmasters_heading_5b7c2f685e569" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">cast your eyes upon our enchanting menu</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f685e625" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">Deliciousness! This is where it happens!</h4>
+</div> 
+<div class="cmsmasters_tabs tabs_mode_tab">
+<ul class="cmsmasters_tabs_list">
+<li id="cmsmasters_tabs_list_item_5b7c2f685e72a" class="cmsmasters_tabs_list_item current_tab">
+<a href="#" class="cmsmasters-icon-custom-pizza">
+<span>Pizza</span>
+</a>
+</li><li id="cmsmasters_tabs_list_item_5b7c2f685eb01" class="cmsmasters_tabs_list_item">
+<a href="#" class="cmsmasters-icon-custom-burger">
+<span>Sandwiches</span>
+</a>
+</li><li id="cmsmasters_tabs_list_item_5b7c2f685ee52" class="cmsmasters_tabs_list_item">
+<a href="#" class="cmsmasters-icon-custom-drinks">
+<span>Drinks</span>
+</a>
+</li><li id="cmsmasters_tabs_list_item_5b7c2f685f15e" class="cmsmasters_tabs_list_item">
+<a href="#" class="cmsmasters-icon-custom-diserts">
+<span>Desserts</span>
+</a>
+</li></ul>
+<div class="cmsmasters_tabs_wrap">
+<div id="cmsmasters_tab_5b7c2f685e72a" class="cmsmasters_tab active_tab">
+<div class="cmsmasters_tab_inner">
+<div class="cmsmasters_menu_wrap"> 
+<div class="cmsmasters_menu">
+<div class="cmsmasters_menu">
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685e842" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">18</span>
+</div>
+<h3 class="menu_title">Margherita</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Tomatoes, mozzarella</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685e8b3" class="cmsmasters_menu_item menu_best">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">24</span>
+</div>
+<h3 class="menu_title">QUATTRO FORMAGGI<span class="cmsmasters_menu_best_feature">New!</span></h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Gorgonzola, ricotta, mozzarella, taleggio</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685e903" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">26</span>
+</div>
+<h3 class="menu_title">Salmone e pesto di noci</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Salmon, walnut pesto</li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+ 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685e9ae" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">22</span>
+</div>
+<h3 class="menu_title">Pomodori pancetta</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Tomatoes, bacon, onion</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685e9fd" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">28</span>
+</div>
+<h3 class="menu_title">Tonno al carciofi</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Red onions, basil, capers, olives, tuna</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ea4c" class="cmsmasters_menu_item menu_best">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">19</span>
+</div>
+<h3 class="menu_title">Pachino piccante<span class="cmsmasters_menu_best_feature">Spicy!</span></h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Marinated cherry tomatoes</li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div><div id="cmsmasters_tab_5b7c2f685eb01" class="cmsmasters_tab">
+<div class="cmsmasters_tab_inner">
+<div class="cmsmasters_menu_wrap"> 
+<div class="cmsmasters_menu">
+ 
+<div class="cmsmasters_menu">
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ebd7" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">30</span>
+</div>
+<h3 class="menu_title">Harvest Chicken Salad</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Dressed with leaf lettuce and tomatoes on a toasted croissant.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ec25" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">23</span>
+</div>
+<h3 class="menu_title">The Veggie</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Fresh lettuce, tomatoes, crisp cucumbers, house roasted multicolored peppers and Swiss on pita. Served with a side of ranch dressing.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ec71" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">32</span>
+</div>
+<h3 class="menu_title">The Italian</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Black Forest ham, salami, provolone, lettuce, etc</li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+ 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685ece6" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">35</span>
+</div>
+<h3 class="menu_title"> Tuna Salad</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Dressed with leaf lettuce and tomatoes on a toasted croissant.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ed34" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">32</span>
+</div>
+<h3 class="menu_title"> Grilled Chicken</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Grilled chicken breast, lettuce, tomatoes, Swiss and McAlister′s Honey Mustard on a toasted croissant.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ed7f" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">36</span>
+</div>
+<h3 class="menu_title">Grilled Chicken Caesar Wrap</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Sliced, grilled chicken breast, Romaine, Caesar dressing and Parmesan cheese in a wheat wrap.</li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div><div id="cmsmasters_tab_5b7c2f685ee52" class="cmsmasters_tab">
+<div class="cmsmasters_tab_inner">
+<div class="cmsmasters_menu_wrap"> 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685ef0d" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">1,5</span>
+</div>
+<h3 class="menu_title">ESPRESSO</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Smooth and intense, Seattles Best espresso roast.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685ef5c" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">2</span>
+</div>
+<h3 class="menu_title">AMERICANO</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Espresso and hot wate</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685efa8" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">2</span>
+</div>
+<h3 class="menu_title">CAPPUCCINO</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Espresso with steamed and foamed milk.</li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+ 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685f01c" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">2</span>
+</div>
+<h3 class="menu_title">LATTE</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Espresso and steamed milk.</li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f067" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">2</span>
+</div>
+<h3 class="menu_title">SELECTIONS OF TWININGS BRAND TEAS</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f0b2" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">5</span>
+</div>
+<h3 class="menu_title">BAILEYS COFFEE</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li>Dust off that hangover with a cheeky shot of Baileys thrown into you coffeee. </li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div><div id="cmsmasters_tab_5b7c2f685f15e" class="cmsmasters_tab">
+<div class="cmsmasters_tab_inner">
+<div class="cmsmasters_menu_wrap"> 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685f20d" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">10</span>
+</div>
+<h3 class="menu_title">Chocolate Lovin&#8217; Spooncake</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f259" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">11</span>
+</div>
+<h3 class="menu_title">Colossal Carrot Cake</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f2a1" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">10</span>
+</div>
+<h3 class="menu_title">New York Cheesecake</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+ 
+<div class="cmsmasters_menu">
+<div id="cmsmasters_menu_item_5b7c2f685f311" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">5</span>
+</div>
+<h3 class="menu_title">Fresh Baked Cookies</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f35b" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">7</span>
+</div>
+<h3 class="menu_title">Brownies</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_menu_item_5b7c2f685f3a3" class="cmsmasters_menu_item">
+<div class="cmsmasters_menu_item_inner">
+<div class="menu_title_wrap">
+<div class="cmsmasters_menu_price_wrap">
+<span class="cmsmasters_menu_currency">$</span>
+<span class="cmsmasters_menu_price">9</span>
+</div>
+<h3 class="menu_title">Dessert Bars</h3>
+<div class="menu_feature_list_wrap">
+<ul class="menu_feature_list">
+<li></li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+<div id="cmsmasters_divider_5b7c2f685f42a" class="cl"></div>
+<div id="cmsmasters_button_5b7c2f685f479" class="button_wrap"><a href="menu\index.html" class="cmsmasters_button"><span>explore full menu</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685f598" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+ 
+<div id="cmsmasters_counters_5b7c2f685f692" class="cmsmasters_counters counters_type_vertical"><div class="cmsmasters_counter_wrap one_fourth">
+<div id="cmsmasters_counter_5b7c2f685f76c" class="cmsmasters_counter" data-percent="138">
+<div class="cmsmasters_counter_inner">
+<span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix"></span>
+</span>
+<span class="cmsmasters_counter_title">MENU ITEMS</span>
+</div>
+</div>
+</div><div class="cmsmasters_counter_wrap one_fourth">
+<div id="cmsmasters_counter_5b7c2f685f7fd" class="cmsmasters_counter" data-percent="300">
+<div class="cmsmasters_counter_inner">
+<span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix">+</span>
+</span>
+<span class="cmsmasters_counter_title">VISITORS EVERYDAY</span>
+</div>
+</div>
+</div><div class="cmsmasters_counter_wrap one_fourth">
+<div id="cmsmasters_counter_5b7c2f685f889" class="cmsmasters_counter" data-percent="12">
+<div class="cmsmasters_counter_inner">
+<span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix"></span>
+</span>
+<span class="cmsmasters_counter_title">YEARS OF EXPERIENCE </span>
+</div>
+</div>
+</div><div class="cmsmasters_counter_wrap one_fourth">
+<div id="cmsmasters_counter_5b7c2f685f910" class="cmsmasters_counter" data-percent="100">
+<div class="cmsmasters_counter_inner">
+<span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix">%</span>
+</span>
+<span class="cmsmasters_counter_title">TASTE &amp; FUN</span>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f685fa8e" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+
+<div id="cmsmasters_heading_5b7c2f685fe14" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">What the press says</h1>
+</div><div class="cmsmasters_quotes_slider_wrap">
+<script type="text/javascript">jQuery(document).ready(function () { jQuery("#cmsmasters_quotes_slider_5b7c2f685fea8").owlCarousel({ singleItem: true, autoPlay: 5000, autoHeight: true, stopOnHover: true, pagination: true, navigation: false }); });</script>
+<div id="cmsmasters_quotes_slider_5b7c2f685fea8" class="cmsmasters_quotes cmsmasters_quotes_slider cmsmasters_quotes_slider_type_center cmsmasters_owl_slider owl-carousel">
+<div class="cmsmasters_quote">
+
+<!--_________________________ Start Quotes Boxed Slider Article _________________________ -->
+<article class="cmsmasters_quote_inner"><div class="cmsmasters_quote_placeholder"></div><div class="cmsmasters_quote_content"><p>“If you like unconventional pizza, this place is for you. Picturesque patio on a pedestrian square in the summer.”</p>
+</div><header class="cmsmasters_quote_header"><h2 class="cmsmasters_quote_title">the guardian</h2><div class="cmsmasters_quote_subtitle_wrap"><h5 class="cmsmasters_quote_subtitle">website-example.com</h5></div></header></article>
+<!--_________________________ Finish Quotes Boxed Slider Article _________________________ -->
+
+</div>
+<div class="cmsmasters_quote">
+
+<!--_________________________ Start Quotes Boxed Slider Article _________________________ -->
+<article class="cmsmasters_quote_inner"><div class="cmsmasters_quote_placeholder"></div><div class="cmsmasters_quote_content"><p>“If you like unconventional pizza, this place is for you. Picturesque patio on a pedestrian square in the summer.”</p>
+</div><header class="cmsmasters_quote_header"><h2 class="cmsmasters_quote_title">the guardian</h2><div class="cmsmasters_quote_subtitle_wrap"><h5 class="cmsmasters_quote_subtitle">website-example.com</h5></div></header></article>
+<!--_________________________ Finish Quotes Boxed Slider Article _________________________ -->
+
+</div>
+<div class="cmsmasters_quote">
+
+<!--_________________________ Start Quotes Boxed Slider Article _________________________ -->
+<article class="cmsmasters_quote_inner"><div class="cmsmasters_quote_placeholder"></div><div class="cmsmasters_quote_content"><p>“If you like unconventional pizza, this place is for you. Picturesque patio on a pedestrian square in the summer.”</p>
+</div><header class="cmsmasters_quote_header"><h2 class="cmsmasters_quote_title">the guardian</h2><div class="cmsmasters_quote_subtitle_wrap"><h5 class="cmsmasters_quote_subtitle">website-example.com</h5></div></header></article>
+<!--_________________________ Finish Quotes Boxed Slider Article _________________________ -->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f68600f1" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner">
+<div class="cmsmasters_row_margin">
+<div class="cmsmasters_column one_first">
+
+<div id="cmsmasters_heading_5b7c2f686040a" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h1 class="cmsmasters_heading">news &amp; events</h1>
+</div>
+<div id="cmsmasters_heading_5b7c2f68604c7" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">There’s always something interesting down here</h4>
+</div><div class="cmsmasters_posts_slider">
+		<script type="text/javascript">
+            jQuery(document).ready(function () {
+                var container = jQuery('.cmsmasters_slider_5b7c2f6860567');
+                containerWidth = container.width(),
+                    firstPost = container.find('article'),
+                    postMinWidth = Number(firstPost.css('minWidth').replace('px', '')),
+                    postThreeColumns = (postMinWidth * 4) - 1;
+                postTwoColumns = (postMinWidth * 3) - 1;
+                postOneColumns = (postMinWidth * 2) - 1;
+
+
+                jQuery('.cmsmasters_slider_5b7c2f6860567').owlCarousel({
+                    items: 3,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: [postThreeColumns, 3],
+                    itemsTablet: [postTwoColumns, 2],
+                    itemsMobile: [postOneColumns, 1],
+                    transitionStyle: false,
+                    rewindNav: true,
+                    slideSpeed: 200,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000, autoPlay: 5000, stopOnHover: true,
+                    autoHeight: true,
+                    addClassActive: true,
+                    responsiveBaseWidth: '.cmsmasters_slider_5b7c2f6860567',
+                    pagination: false,
+                    navigation: true,
+                    navigationText: ["<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>"]
+                });
+            });
+		</script>
+		<div id="cmsmasters_owl_carousel_5b7c2f6860567" class="cmsmasters_owl_slider cmsmasters_slider_5b7c2f6860567"><div>
+<!--_________________________ Start Standard Article _________________________ -->
+
+<article id="post-103" class="cmsmasters_slider_post post-103 post type-post status-publish format-image has-post-thumbnail hentry category-news post_format-post-format-image">
+	<div class="cmsmasters_slider_post_outer">
+	<span class="cmsmasters_slider_post_date"><abbr class="published" title="November 23, 2015">November 23, 2015</abbr><abbr class="dn date updated" title="August 25, 2016">August 25, 2016</abbr></span><header class="cmsmasters_slider_post_header entry-header"><h2 class="cmsmasters_slider_post_title entry-title"><a href="2015\11\23\the-new-panini-spot-is-opened\index.html">The New Panini Spot is Opened!</a></h2></header><figure class="cmsmasters_img_rollover_wrap preloader"><img width="580" height="420" src="wp-content\uploads\2015\11\3-2-580x420.jpeg" class="full-width wp-post-image" alt="The New Panini Spot is Opened!" title="The New Panini Spot is Opened!"><a href="2015\11\23\the-new-panini-spot-is-opened\index.html" title="The New Panini Spot is Opened!" class="cmsmasters_open_link"></a></figure><div class="cmsmasters_slider_post_content entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum massa vel enim feugiat gravida. Phasellus velit risus, euismod a lacus et.</p>
+</div>
+<a class="cmsmasters_slider_post_read_more" href="2015\11\23\the-new-panini-spot-is-opened\index.html">Read More</a>	</div>
+</article>
+<!--_________________________ Finish Standard Article _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Article _________________________ -->
+
+<article id="post-285" class="cmsmasters_slider_post post-285 post type-post status-publish format-image has-post-thumbnail hentry category-best-restaurants post_format-post-format-image">
+	<div class="cmsmasters_slider_post_outer">
+	<span class="cmsmasters_slider_post_date"><abbr class="published" title="November 20, 2015">November 20, 2015</abbr><abbr class="dn date updated" title="August 25, 2016">August 25, 2016</abbr></span><header class="cmsmasters_slider_post_header entry-header"><h2 class="cmsmasters_slider_post_title entry-title"><a href="2015\11\20\top-15-best-restaurants-of-2016\index.html">Top 15 Best Restaurants</a></h2></header><figure class="cmsmasters_img_rollover_wrap preloader"><img width="580" height="420" src="wp-content\uploads\2015\11\4-2-580x420.jpeg" class="full-width wp-post-image" alt="Top 15 Best Restaurants" title="Top 15 Best Restaurants"><a href="2015\11\20\top-15-best-restaurants-of-2016\index.html" title="Top 15 Best Restaurants" class="cmsmasters_open_link"></a></figure><div class="cmsmasters_slider_post_content entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum massa vel enim feugiat gravida. Phasellus velit risus, euismod a lacus et.</p>
+</div>
+<a class="cmsmasters_slider_post_read_more" href="2015\11\20\top-15-best-restaurants-of-2016\index.html">Read More</a>	</div>
+</article>
+<!--_________________________ Finish Standard Article _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Article _________________________ -->
+
+<article id="post-85" class="cmsmasters_slider_post post-85 post type-post status-publish format-image has-post-thumbnail hentry category-news post_format-post-format-image">
+	<div class="cmsmasters_slider_post_outer">
+	<span class="cmsmasters_slider_post_date"><abbr class="published" title="November 10, 2015">November 10, 2015</abbr><abbr class="dn date updated" title="August 25, 2016">August 25, 2016</abbr></span><header class="cmsmasters_slider_post_header entry-header"><h2 class="cmsmasters_slider_post_title entry-title"><a href="2015\11\10\chefs-pick-brand-new-taste\index.html">Chef’s Pick: Brand New Taste</a></h2></header><figure class="cmsmasters_img_rollover_wrap preloader"><img width="580" height="420" src="wp-content\uploads\2015\11\6-1-580x420.jpeg" class="full-width wp-post-image" alt="Chef’s Pick: Brand New Taste" title="Chef’s Pick: Brand New Taste"><a href="2015\11\10\chefs-pick-brand-new-taste\index.html" title="Chef’s Pick: Brand New Taste" class="cmsmasters_open_link"></a></figure><div class="cmsmasters_slider_post_content entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum massa vel enim feugiat gravida. Phasellus velit risus, euismod a lacus et.</p>
+</div>
+<a class="cmsmasters_slider_post_read_more" href="2015\11\10\chefs-pick-brand-new-taste\index.html">Read More</a>	</div>
+</article>
+<!--_________________________ Finish Standard Article _________________________ -->
+
+</div><div>
+<!--_________________________ Start Standard Article _________________________ -->
+
+<article id="post-1965" class="cmsmasters_slider_post post-1965 post type-post status-publish format-image has-post-thumbnail hentry category-advice category-best-restaurants post_format-post-format-image">
+	<div class="cmsmasters_slider_post_outer">
+	<span class="cmsmasters_slider_post_date"><abbr class="published" title="November 8, 2015">November 8, 2015</abbr><abbr class="dn date updated" title="August 25, 2016">August 25, 2016</abbr></span><header class="cmsmasters_slider_post_header entry-header"><h2 class="cmsmasters_slider_post_title entry-title"><a href="2015\11\08\the-best-place-to-meet-friends\index.html">The Best Place to Meet Friends</a></h2></header><figure class="cmsmasters_img_rollover_wrap preloader"><img width="580" height="420" src="wp-content\uploads\2015\11\7-1-580x420.jpeg" class="full-width wp-post-image" alt="The Best Place to Meet Friends" title="The Best Place to Meet Friends"><a href="2015\11\08\the-best-place-to-meet-friends\index.html" title="The Best Place to Meet Friends" class="cmsmasters_open_link"></a></figure><div class="cmsmasters_slider_post_content entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum massa vel enim feugiat gravida. Phasellus velit risus, euismod a lacus et.</p>
+</div>
+<a class="cmsmasters_slider_post_read_more" href="2015\11\08\the-best-place-to-meet-friends\index.html">Read More</a>	</div>
+</article>
+<!--_________________________ Finish Standard Article _________________________ -->
+
+</div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="cmsmasters_row_5b7c2f6862e7a" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+<div class="cmsmasters_row_outer_parent">
+<div class="cmsmasters_row_outer">
+<div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin">
+<div class="cmsmasters_row_margin cmsmasters_row_columns_behavior">
+<div class="cmsmasters_column one_half">
+<div id="cmsmasters_fb_5b7c2f6862fb2" class="cmsmasters_featured_block">
+<div class="featured_block_inner">
+<div class="featured_block_text">
+<div id="cmsmasters_heading_5b7c2f68630d9" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">Call +1 123 345 678</h4>
+</div>
+<div id="cmsmasters_heading_5b7c2f6863198" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+	<h4 class="cmsmasters_heading">or fill out the booking form</h4>
+</div>
+<div id="cmsmasters_button_5b7c2f68631f3" class="button_wrap"><a href="reservations\index.html" class="cmsmasters_button"><span>BOOK A TABLE</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cmsmasters_column one_half">
+<div id="cmsmasters_fb_5b7c2f68632f4" class="cmsmasters_featured_block">
+<div class="featured_block_inner">
+<div class="featured_block_text">
+
+<div id="cmsmasters_icon_5b7c2f686356a" class="cmsmasters_icon_wrap"><span class="cmsmasters_simple_icon cmsmasters-icon-location"></span></div>
+<div class="cmsmasters_text">
+<h4 style="text-align: center"><span style="font-size: 24px;color: #ffffff">2 bis, rue Neuve-Popincourt</span><br>
+<span style="font-size: 24px;color: #ffffff">75011 Paris</span></h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="cl"></div><div class="content_wrap fullwidth">
+
+<div class="middle_content entry"></div>
+<!-- _________________________ Finish Content _________________________ -->
+
+</div></div>
+</div>
+<!-- _________________________ Finish Middle _________________________ -->
+
+
+<a href="javascript:void(0);" id="slide_top" class="cmsmasters_theme_icon_slide_top"></a>
+</div>
+<!-- _________________________ Finish Main _________________________ -->
+
+<!-- _________________________ Start Footer _________________________ -->
+<footer id="footer" class="cmsmasters_color_scheme_footer cmsmasters_footer_default">
+	<div class="footer_inner">
+		<div class="footer_in_inner">
+		<a href="index.html" title="Pizza Restaurant" class="footer_logo">
+	<img src="wp-content\uploads\2016\09\pizza-logo-footer.png" alt="Pizza Restaurant"><img class="footer_logo_retina" src="wp-content\uploads\2016\09\pizza-logo-footer-retina.png" alt="Pizza Restaurant" width="140" height="160"></a>
+<div class="footer_nav_wrap"><nav><div class="menu-footer-navigation-container"><ul id="footer_nav" class="footer_nav"><li id="menu-item-12578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7366 current_page_item menu-item-12578"><a href="index.html">Home</a></li>
+<li id="menu-item-12580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12580"><a href="about-us\index.html">About Us</a></li>
+<li id="menu-item-12582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12582"><a href="menu\index.html">Menu</a></li>
+<li id="menu-item-12577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12577"><a href="news\index.html">News</a></li>
+<li id="menu-item-12579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12579"><a href="shop\index.html">Shop</a></li>
+<li id="menu-item-12581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12581"><a href="contacts\index.html">Contacts</a></li>
+</ul></div></nav></div>
+<div class="social_wrap">
+	<div class="social_wrap_inner">
+		<ul>
+			<li>
+				<a href="#" class="cmsmasters_social_icon cmsmasters_social_icon_1 cmsmasters-icon-twitter-circled" title="Twitter"></a>
+			</li>
+			<li>
+				<a href="#" class="cmsmasters_social_icon cmsmasters_social_icon_2 cmsmasters-icon-facebook-circled" title="Facebook"></a>
+			</li>
+			<li>
+				<a href="#" class="cmsmasters_social_icon cmsmasters_social_icon_3 cmsmasters-icon-gplus-circled" title="Google+"></a>
+			</li>
+			<li>
+				<a href="#" class="cmsmasters_social_icon cmsmasters_social_icon_4 cmsmasters-icon-vimeo-circled" title="Vimeo"></a>
+			</li>
+			<li>
+				<a href="#" class="cmsmasters_social_icon cmsmasters_social_icon_5 cmsmasters-icon-pinterest-circled-1" title="Pinterest"></a>
+			</li>
+		</ul>
+	</div>
+</div>			<span class="footer_copyright copyright">
+				© 2017 Pizza Restaurant			</span>
+		</div>
+	</div>
+</footer>
+<!-- _________________________ Finish Footer _________________________ -->
+
+</div>
+<span class="cmsmasters_responsive_width"></span>
+<!-- _________________________ Finish Page _________________________ -->
+
+	<script type="text/javascript">
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+	</script>
+	<script type='text/javascript' src='wp-content\plugins\cmsmasters-mega-menu\js\jquery.megaMenu.js?ver=1.2.6'></script>
+<script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "http:\/\/pizza-restaurant.cmsmasters.net\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js?ver=3.4.2'></script>
+<script type='text/javascript' src='wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js?ver=3.4.2'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_94488692ae728303aa5cf8d96ca7ffe1", "fragment_name": "wc_fragments_94488692ae728303aa5cf8d96ca7ffe1" };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min.js?ver=3.4.2'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var cmsmasters_jlibs = { "button_height": "-24" };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\themes\pizza-restaurant\js\jqueryLibraries.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='wp-content\themes\pizza-restaurant\js\scrollspy.js?ver=1.0.0'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var cmsmasters_script = { "theme_url": "http:\/\/pizza-restaurant.cmsmasters.net\/wp-content\/themes\/pizza-restaurant", "site_url": "http:\/\/pizza-restaurant.cmsmasters.net\/", "ajaxurl": "http:\/\/pizza-restaurant.cmsmasters.net\/wp-admin\/admin-ajax.php", "nonce_ajax_like": "f723cd1533", "primary_color": "#cfdf5a", "ilightbox_skin": "dark", "ilightbox_path": "vertical", "ilightbox_infinite": "0", "ilightbox_aspect_ratio": "1", "ilightbox_mobile_optimizer": "1", "ilightbox_max_scale": "1", "ilightbox_min_scale": "0.2", "ilightbox_inner_toolbar": "0", "ilightbox_smart_recognition": "0", "ilightbox_fullscreen_one_slide": "0", "ilightbox_fullscreen_viewport": "center", "ilightbox_controls_toolbar": "1", "ilightbox_controls_arrows": "0", "ilightbox_controls_fullscreen": "1", "ilightbox_controls_thumbnail": "1", "ilightbox_controls_keyboard": "1", "ilightbox_controls_mousewheel": "1", "ilightbox_controls_swipe": "1", "ilightbox_controls_slideshow": "0", "ilightbox_close_text": "Close", "ilightbox_enter_fullscreen_text": "Enter Fullscreen (Shift+Enter)", "ilightbox_exit_fullscreen_text": "Exit Fullscreen (Shift+Enter)", "ilightbox_slideshow_text": "Slideshow", "ilightbox_next_text": "Next", "ilightbox_previous_text": "Previous", "ilightbox_load_image_error": "An error occurred when trying to load photo.", "ilightbox_load_contents_error": "An error occurred when trying to load contents.", "ilightbox_missing_plugin_error": "The content your are attempting to view requires the <a href='{pluginspage}' target='_blank'>{type} plugin<\\\/a>." };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\themes\pizza-restaurant\js\jquery.script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='wp-content\themes\pizza-restaurant\js\jquery.tweet.min.js?ver=1.3.1'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var cmsmasters_woo_script = { "currency_symbol": "\u00a3", "thumbnail_image_width": "70", "thumbnail_image_height": "70" };
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\themes\pizza-restaurant\js\jquery.cmsmasters-woo-script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='wp-includes\js\comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='wp-includes\js\wp-embed.min.js?ver=4.9.8'></script>
+
+			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Ok</a>
+				</div>
+				
+			</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>
